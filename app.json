@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/qianyan/qianyan",
+    "pages/shetuan/shetuan",
+    "pages/write/write",
+    "pages/xiaoxi/xiaoxi",
+    "pages/wode/wode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#777777",
+    "borderStyle": "white",
+    "selectedColor": "#8c7edb",
+    "list": [
+      {
+        "pagePath": "pages/qianyan/qianyan",
+        "text": "浅言",
+        "iconPath": "/tabbarComponent/icon/app_img_tab_zy.png",
+        "selectedIconPath": "/tabbarComponent/icon/app_img_tab_zy_selected.png"
+      },
+      {
+        "pagePath": "pages/shetuan/shetuan",
+        "text": "社团",
+        "iconPath": "/tabbarComponent/icon/app_img_tab_find.png",
+        "selectedIconPath": "/tabbarComponent/icon/app_img_tab_find_selected.png"
+      },
+      
+      {
+        "pagePath": "pages/xiaoxi/xiaoxi",
+        "text": "消息",
+        "iconPath": "/tabbarComponent/icon/app_img_tab_chat.png",
+        "selectedIconPath": "/tabbarComponent/icon/app_img_tab_find_selected.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "/tabbarComponent/icon/app_img_tab_mine_down.png",
+        "selectedIconPath": "/tabbarComponent/icon/app_img_tab_mine_up.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

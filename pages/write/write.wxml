@@ -1,0 +1,4 @@
+<!--pages/write/write.wxml-->
+<view>
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

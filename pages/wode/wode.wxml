@@ -1,0 +1,5 @@
+<!--pages/wode/wode.wxml-->
+<view>
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+  <image src="/images/wodezhuye.png" style="width: 102px;height:120px;"></image>
+</view>

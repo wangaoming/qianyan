@@ -1,0 +1,4 @@
+<!--pages/shetuan/shetuan.wxml-->
+<view>
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

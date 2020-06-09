@@ -1,0 +1,4 @@
+<!--pages/xiaoxi/xiaoxi.wxml-->
+<view>
+  <tabbar tabbar="{{tabbar}}"></tabbar>
+</view>

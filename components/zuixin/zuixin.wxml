@@ -1,0 +1,57 @@
+<!--components/zuixin/zuixin.wxml-->
+<view class="page1">
+  <input placeholder="请输入想要搜索的浅友或内容" class="input"></input>
+  <!--内容 -->
+  <view class="zhongdian" wx:for='{{list}}' wx:key= "{{id}}">
+<!-- 第一层 -->
+<view class="one">
+  <!-- 头像 -->
+  <view class="img" >
+    <image class="touxiang" src="{{item.touxiang}}"></image>
+  </view>
+  <image class="biaoshi" src="{{item.biaoshi}}"></image>
+  <view class="one-left">
+    <text class="nicheng">{{item.nicheng}}</text>
+  <view class="one-left-xiao">
+   <text  >{{item.shijian}}</text>
+   <image class="qq" src="/images/zuixin/app_img_location.png"></image>
+   <text class="tt">{{item.diqu}}</text>
+   <image class="ee" src="{{item.tianqi}}"></image>
+  </view>
+
+  </view> 
+  <view class="ll">
+    <!--弹框 事件-->
+<image class="hh"src="/images/zuixin/more_icon.png" class="toast"></image></view>
+  
+</view>
+<!-- 第二层 -->
+<view class="two">
+  <text class="neirong">{{item.neirong}}</text>
+  <image src="{{item.tupian}}"></image>
+</view>
+<!-- 第三层 -->
+<view class="three">
+  <view class="ww">
+  <image src="/images/zuixin/eye.png"></image>
+  <text class="t2">{{item.liulanliang}}</text>
+  </view>
+  <view class="aa">
+    <image src="/images/zuixin/app_img_share_comment_share.png" ></image>
+    <text class="t2">分享</text>
+    </view>
+    <view class="mm">
+      <image  src="/images/zuixin/app_img_comment.png"></image>
+      <text class="t2">{{item.pinglunliang}}</text>
+      </view>
+
+      <view class="gg">
+        <image  src="/images/zuixin/app_img_like.png"></image>
+        <text class="t2">{{item.dianzanliang}}</text>
+        </view>
+</view>
+<view class="wall"></view>
+  </view>
+  
+</view>
+

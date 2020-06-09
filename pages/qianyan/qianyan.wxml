@@ -1,0 +1,34 @@
+<!--pages/qianyan/qianyan.wxml-->
+<view class="head">
+    <tabbar tabbar="{{tabbar}}"></tabbar>
+    <view >
+
+    </view>
+    <view class="img"> <image src="/images/qianyan/app_img_signin_signin.png" class="image1"></image></view>
+    <!-- 导航栏标签 -->
+    <view class="head1">
+    <!--  导航条-->
+    <view class="navbar">
+        <text wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</text>
+    </view>
+
+</view>
+<image src="/images/qianyan/app_img_msg.png" class="image2"></image>
+</view>
+<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+   <!-- 最新 -->
+    <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+        <scroll-view ><zuixin></zuixin></scroll-view>
+    </view></swiper-item> 
+    <!-- 热门 -->
+    <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+        <scroll-view ><zuixin></zuixin></scroll-view>
+    </view></swiper-item> 
+  <!-- 关注 --> 
+   <swiper-item><view hidden="{{currentTab!==2}}" class="hidden"> <scroll-view ><zuixin></zuixin></scroll-view></view></swiper-item> 
+</swiper>
+
+
+
+
+

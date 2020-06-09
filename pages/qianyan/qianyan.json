@@ -1,0 +1,4 @@
+{
+  "usingComponents": {"tabbar": "../../tabbarComponent/tabbar",
+  "zuixin":"/components/zuixin/zuixin"}
+}
