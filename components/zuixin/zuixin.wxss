@@ -9,7 +9,7 @@ border-radius: 20rpx;
 border:1px solid 	#D3D3D3;
 font-size: 22rpx;
 text-align: center;
-margin-top:16rpx;
+margin-top:130rpx;
 width: 90%;
  
 }

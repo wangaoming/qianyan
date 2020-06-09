@@ -8,6 +8,14 @@ page{
   flex-direction: row;
   align-items: center;
   border-bottom: 1px solid #eee;
+  background: white;
+  /* 顶部导航栏固定 */
+  position:fixed; 
+  top:0;
+  /* 设置元素的堆叠顺序 */
+  z-index: 999;
+  
+ 
 
 }
 .navbar{
