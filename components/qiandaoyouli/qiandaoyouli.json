@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "liuchengtu":"/components/liuchengtu/liuchengtu"
+  }
+}

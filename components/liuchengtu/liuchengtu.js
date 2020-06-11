@@ -1,39 +1,18 @@
-// pages/qianyan/qianyan.js
-const app = getApp()
+// components/liuchengtu/liuchengtu.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    tabbar: {},
-    navbar:['最新','热门','关注'],
-    currentTab:0
+
   },
-//导航栏
-navbarTap(e){
-  this.setData({
-    currentTab: e.currentTarget.dataset.idx
-  })
-},
 
-// 滑动事件
-swiperChange: function (e) {
-  this.setData({
-    currentTab: e.detail.current
-  })
-
-},//  签到
-sigininHanle(e){
-  wx.navigateTo({
-    url: '/components/qiandaoyouli/qiandaoyouli',
-  })
-},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    app.editTabbar();
+
   },
 
   /**
@@ -47,7 +26,6 @@ sigininHanle(e){
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-   
 
   },
 

@@ -1,0 +1,20 @@
+<!--components/liuchengtu/liuchengtu.wxml-->
+<view class="left" >
+       <view style=" width:2rpx;height: 50rpx;background:#b89aff;"></view>
+       <view style="height: 20rpx;border:#b89aff 1px solid ;width: 20rpx;border-radius: 50%;"></view>
+      
+       <view style=" width:2rpx;height: 134rpx;background:#b89aff;"></view>
+       <view style="height: 20rpx;border:#b89aff 1px solid ;width: 20rpx;border-radius: 50%;"></view>
+
+       <view style=" width:2rpx;height: 137rpx;background:#b89aff;"></view>
+       <view style="height: 20rpx;border:#b89aff 1px solid ;width: 20rpx;border-radius: 50%;"></view>
+       
+       <view style=" width:2rpx;height: 140rpx;background:#b89aff;"></view>
+       <view style="height: 20rpx;border:#b89aff 1px solid ;width: 20rpx;border-radius: 50%"></view>
+      
+       <view style=" width:2rpx;height: 142rpx;background:#b89aff;"></view>
+       <view style="height: 20rpx;border:#b89aff 1px solid ;width: 20rpx;border-radius: 50%;"></view>
+     
+       <view style=" width:2rpx;height: 90rpx;background:#b89aff;"></view>
+      
+      </view>

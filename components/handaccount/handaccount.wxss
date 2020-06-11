@@ -1,9 +1,5 @@
-/* pages/qianyan/qianyan.wxss */
-page{
-  width: 100%;
-  height: 100%;
-}
-.head{
+/* components/handaccount/handaccount.wxss */
+.top{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,35 +15,7 @@ page{
   flex: none;
   display: flex;
   background: #fff;
-
-}
-.img{
-width: 130rpx;
-text-align: center;
- margin-right:90rpx;
-}
-.image1{
-  width: 60rpx;
-  height: 60rpx;
-
-}
-.image2{
-  width: 40rpx;
-  height: 40rpx;
-  margin-left:120rpx;
-}
-.navbar .item{
-  position: relative;
-  flex: auto;
-  text-align: center;
-  line-height: 100rpx;
   
-}
-.navbar .item:nth-child(2),.navbar .item:nth-child(3){
-  margin-left: 70rpx;
-}
-.hidden{
- 
 }
 .navbar .item.active{
   font-size:19px;
@@ -63,4 +31,13 @@ text-align: center;
   height: 4rpx;
   background:linear-gradient(to right,pink,#a02bc2)
 }
-
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 100rpx;
+  
+}
+.navbar .item:nth-child(1),.navbar .item:nth-child(2){
+  margin-left: 70rpx;
+}

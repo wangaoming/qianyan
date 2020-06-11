@@ -1,0 +1,10 @@
+/* components/liuchengtu/liuchengtu.wxss */
+.left{
+  display: flex;
+   flex-direction:column;
+   align-items: center;
+   width: 66rpx;
+
+   /* z-index: 999; */
+   
+}

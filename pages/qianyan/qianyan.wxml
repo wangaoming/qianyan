@@ -3,7 +3,7 @@
     <tabbar tabbar="{{tabbar}}"></tabbar>
     <view >
     </view>
-    <view class="img"> <image src="/images/qianyan/app_img_signin_signin.png" class="image1"></image></view>
+    <view class="img"> <image src="/images/qianyan/app_img_signin_signin.png" class="image1" bindtap="sigininHanle"></image></view>
     <!-- 导航栏标签 -->
     <view class="head1">
     <!--  导航条-->

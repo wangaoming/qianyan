@@ -1,0 +1,19 @@
+/* pages/siginrules/siginrules.wxss */
+.top-one{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+}
+image{
+  width: 85rpx;
+  height:80rpx;
+}
+.top-one text{
+ margin-left: 20rpx;
+}

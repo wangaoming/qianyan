@@ -1,0 +1,302 @@
+<!--components/qiandaoyouli/qiandaoyouyi.wxml-->
+<view class="top">
+  <image src="/images/qiandao/返回箭头.png"></image>
+  <text class="t1">签到有礼</text>
+  <text class="t2" bindtap="rulesHandle">签到规则</text>
+</view>
+<view class="page1">
+  <scroll-view style="height:10000rpx;">
+    <image  class="bgp" src="/images/qiandao/app_img_signin_sign_bg.png"></image>
+    <!-- 签到天数 -->
+    <view class="sigin-day">
+      <!-- 第一层 -->
+      <view class="day1">
+        <image src="/images/qiandao/app_img_signin_icon_calendar.png"></image>
+        <text class="tt1">已经连续签到<text class="ttt1">1</text>天</text>
+        <text class="tt2">补签卡<text class="ttt2">(0)</text></text>
+      </view>
+      <!-- 第二层 -->
+      <view class="yuan">
+          <!-- 1 -->
+        <view class="yuan1">
+         <view class="wenzi">
+          <text>+5</text>
+          <text>成长值</text>
+         </view>
+         <text class="buqian">补签</text>
+        </view>
+
+        <view class="yuan1">
+          <view class="wenzi">
+          <image src="/images/qiandao/app_img_signin_box_open.png" class="image"></image>
+          </view>
+          <text class="buqian">补签</text>
+         </view>
+
+         <view class="yuan1">
+          <view class="wenzi">
+           <text>+5</text>
+           <text>成长值</text>
+          </view>
+          <text class="buqian">补签</text>
+         </view>
+         <view class="yuan1">
+          <view class="wenzi">
+           <text>+5</text>
+           <text>成长值</text>
+          </view>
+          <text class="qiandao">已签到</text>
+         </view>
+
+         <!-- 2 -->
+         <view class="yuan1">
+          <view class="wenzi1">
+          <image src="/images/qiandao/app_img_signin_box.png" class="image"></image>
+          </view>
+          <text class="riqi">06.11</text>
+         </view>
+
+         <view class="yuan1">
+          <view class="wenzi1">
+            <text>+5</text>
+            <text>成长值</text>
+          </view>
+          <text class="riqi">06.12</text>
+         </view>
+
+         <view class="yuan1">
+          <view class="wenzi1">
+            <text>+5</text>
+            <text>成长值</text>
+          </view>
+          <text class="riqi">06.13</text>
+         </view>
+
+      </view>
+      <!-- 第三层 -->
+      
+      <image class="yaoqing" src="/images/qiandao/app_img_signin_btn_invitation.png"></image>
+    </view>
+
+    <!-- 连接结 -->
+    <image class="lianjie" src="/images/qiandao/app_img_signin_img_knot.png"> </image>
+    <!-- 日常任务 -->
+    <view class="task">
+      <image class="jianglitu" src="/images/qiandao/app_img_signin_img_task.png"></image>
+       <text style="color: #b89aff;font-size: 28rpx;margin-top: 18rpx;">完成任务可获得成长值或浅币奖励</text>
+    <view class="tasktubiao">
+      <image src="/images/qiandao/app_img_novice_day.png"></image>
+      <text class="title" style="font-size: 30rpx;">日常任务</text>
+    </view>
+    <!-- 横线 -->
+    <view style="width:692rpx;height:2px;background:#eee;"></view>
+   
+    <view class="neirong">
+     <!-- 左边的类似进度条 -->
+      <liuchengtu></liuchengtu>
+      <view class="col"> <!-- 1 -->
+     <view class="right">
+       <view class="right-text" >
+         <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">每日一记<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+          <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+         </view>
+         <text class="day-text" style="font-size: 26rpx;color: #787878;">每天发布一篇公开浅记</text>
+       </view>
+        <text  class="right-btn"  >去完成</text>
+     </view>
+
+<!-- 2 -->
+     <view class="right" >
+      <view class="right-text" >
+        <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">每日手帐<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+         <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+        </view>
+        <text class="day-text" style="font-size: 26rpx;color: #787878;">每天发布一篇公开手帐</text>
+      </view>
+       <text  class="right-btn" >去完成</text>
+    </view>
+ <!-- 3 -->
+ <view class="right" >
+  <view class="right-text" >
+    <view   class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">每日分享<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+     <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+    </view>
+    <text class="day-text" style="font-size: 26rpx;color: #787878;">分享浅记、手帐、话题</text>
+  </view>
+   <text  class="right-btn" >去完成</text>
+</view>
+<!-- 4 -->
+<view class="right">
+  <view class="right-text" >
+    <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">让爱环绕<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+     <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+    </view>
+    <text class="day-text" style="font-size: 26rpx;color: #787878;">每天在浅言时长30分钟</text>
+  </view>
+   <text  class="right-btn" >去完成</text>
+</view>  
+<!-- 5 -->
+<view class="right1">
+  <view class="right-text" >
+    <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">提升品质<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+     <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+    </view>
+    <text class="day-text" style="font-size: 26rpx;color: #787878;">去商场每实物消费一次</text>
+  </view>
+   <text  class="right-btn" >去完成</text>
+</view>  
+<!-- neirong结束 -->
+   </view>
+  </view>
+    
+   <!-- task结束 -->
+   </view>  
+    
+    <!-- 新手专享 -->
+    <!-- 连接结 -->
+    <image class="lianjie" src="/images/qiandao/app_img_signin_img_knot.png"> </image>
+    <view class="task">
+    <view class="tasktubiao">
+      <image src="/images/qiandao/app_img_novice_star.png"></image>
+      <text class="title" style="font-size: 30rpx;">新手专享</text> 
+    </view>
+    <!-- 横线 -->
+    <view style="width:692rpx;height:2px;background:#eee;"></view>
+   
+    <view class="neirong">
+     <!-- 左边的类似进度条 -->
+      <liuchengtu></liuchengtu>
+      <view class="col"> <!-- 1 -->
+     <view class="right">
+       <view class="right-text" >
+         <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">分享有礼<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+          <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+         </view>
+         <text class="day-text" style="font-size: 26rpx;color: #787878;">首次成功分享浅言即可</text>
+       </view>
+        <text  class="right-btn" >去完成</text>
+     </view>
+
+<!-- 2 -->
+     <view class="right" >
+      <view class="right-text" >
+        <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">完善资料<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+         <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+        </view>
+        <text class="day-text" style="font-size: 26rpx;color: #787878;">完善我的个人资料即可</text>
+      </view>
+       <text  class="right-btn" >去完成</text>
+    </view>
+ <!-- 3 -->
+ <view class="right" >
+  <view class="right-text" >
+    <view   class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">个性换肤<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+     <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+    </view>
+    <text class="day-text" style="font-size: 26rpx;color: #787878;">去给自己一个生活方式</text>
+  </view>
+   <text  class="right-btn" >去完成</text>
+</view>
+<!-- 4 -->
+<view class="right">
+  <view class="right-text" >
+    <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">常见问题<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+     <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+    </view>
+    <text class="day-text" style="font-size: 26rpx;color: #787878;">去了解你不知道的世界</text>
+  </view>
+   <text  class="right-btn" >去完成</text>
+</view>  
+<!-- 5 -->
+<view class="right1">
+  <view class="right-text" >
+    <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">温暖他人<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+     <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+    </view>
+    <text class="day-text" style="font-size: 26rpx;color: #787878;">给别人留下温暖评论吧</text>
+  </view>
+   <text  class="right-btn" >去完成</text>
+</view>  
+<!-- neirong结束 -->
+   </view>
+  </view>
+    
+   <!-- task结束 -->
+   </view>  
+    <!-- 激励任务 -->
+ <!-- 连接结 -->
+ <image class="lianjie" src="/images/qiandao/app_img_signin_img_knot.png"> </image>
+ <view class="task">
+ <view class="tasktubiao">
+   <image src="/images/qiandao/app_img_novice_praise.png"></image>
+   <text class="title">激励任务</text>
+ </view>
+ <!-- 横线 -->
+ <view style="width:692rpx;height:2px;background:#eee;"></view>
+
+ <view class="neirong">
+  <!-- 左边的类似进度条 -->
+   <liuchengtu></liuchengtu>
+   <view class="col"> <!-- 1 -->
+  <view class="right" >
+    <view class="right-text" >
+      <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">邀请好友<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+       <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+      </view>
+      <text class="day-text" style="font-size: 26rpx;color: #787878;">去邀请新用户登录浅言</text>
+    </view>
+     <text  class="right-btn" >去完成</text>
+  </view>
+
+<!-- 2 -->
+  <view class="right" >
+   <view class="right-text" >
+     <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">社团小铺<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+      <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+     </view>
+     <text class="day-text" style="font-size: 26rpx;color: #787878;">去创建并开启社团小铺</text>
+   </view>
+    <text  class="right-btn" >去完成</text>
+ </view>
+<!-- 3 -->
+<view class="right" >
+<view class="right-text" >
+ <view   class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">意见反馈<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+  <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+ </view>
+ <text class="day-text" style="font-size: 26rpx;color: #787878;">反馈意见，助力我成长</text>
+</view>
+<text  class="right-btn" >去完成</text>
+</view>
+<!-- 4 -->
+<view class="right">
+<view class="right-text" >
+ <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">开通会员<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+  <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+ </view>
+ <text class="day-text" style="font-size: 26rpx;color: #787878;">去享受会员的专属权益</text>
+</view>
+<text  class="right-btn" >去开通</text>
+</view>  
+<!-- 5 -->
+<view class="right1">
+<view class="right-text" >
+ <view  class="hhh" style="display: flex;flex-direction: row;align-items: center;margin-top: 40rpx;"><text style="font-size: 29rpx;">守卫浅言<text style="color: #93cb30;font-size: 26rpx;margin-left: 8rpx;">+5</text></text>
+  <image src="/images/qiandao/app_img_leaf_icon.png" style="height:30rpx;width:30rpx;margin-left: 8rpx;"></image>
+ </view>
+ <text class="day-text" style="font-size: 26rpx;color: #787878;">获得+2浅币+20成长值</text>
+</view>
+<text  class="right-btn" >去完成</text>
+</view>  
+<!-- neirong结束 -->
+</view>
+</view>
+ 
+<!-- task结束 -->
+</view>  
+
+  </scroll-view>
+
+</view>
+
+

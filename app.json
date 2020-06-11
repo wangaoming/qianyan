@@ -4,7 +4,9 @@
     "pages/shetuan/shetuan",
     "pages/write/write",
     "pages/xiaoxi/xiaoxi",
-    "pages/wode/wode"
+    "pages/wode/wode",
+    "pages/siginrules/siginrules"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,7 +32,6 @@
         "iconPath": "/tabbarComponent/icon/app_img_tab_find.png",
         "selectedIconPath": "/tabbarComponent/icon/app_img_tab_find_selected.png"
       },
-      
       {
         "pagePath": "pages/xiaoxi/xiaoxi",
         "text": "消息",

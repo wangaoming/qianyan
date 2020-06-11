@@ -1,0 +1,19 @@
+<!--components/handaccount/handaccount.wxml-->
+<view class="top">
+  <image></image>
+  <!-- 导航条 -->
+  <view class="navbar">
+    <text wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</text>
+</view>
+</view>
+<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+  <!-- 浅记 -->
+   <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+       <scroll-view ></scroll-view>
+   </view></swiper-item> 
+   <!-- 手账 -->
+   <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+       <scroll-view ></scroll-view>
+   </view></swiper-item> 
+ 
+</swiper>

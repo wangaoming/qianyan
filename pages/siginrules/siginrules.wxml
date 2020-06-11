@@ -1,0 +1,31 @@
+<!--pages/siginrules/siginrules.wxml-->
+<!-- 第一层 -->
+<view class="top">
+<view class="top-one">
+  <image src="/images/qiandao/app_img_signin_one.png"></image>
+  <text style="color: #b999fe;">签到规则：</text>
+</view>
+<text style="margin-left: 24rpx;margin-top: 10rpx;font-size: 28rpx;">1）<text>连续签到满39天就可以获得30天vip，连续签到期间</text></text>
+<text style="margin-left: 68rpx;margin-top: 10rpx;font-size: 28rpx;">不定期可获得宝箱哦~</text>
+<text style="margin-left: 24rpx;margin-top: 10rpx;font-size: 28rpx;">2）<text>漏签可用补签卡进行补签;</text></text>
+<text style="margin-left: 24rpx;margin-top: 10rpx;font-size: 28rpx;">3）<text>获得vip后，连续签到时间重新计算;</text></text>
+<text style="margin-left: 24rpx;margin-top: 10rpx;font-size: 28rpx;">4）<text>只计算当日前39天(含当日)内的签到情况哦~;</text></text>
+</view>
+<!-- 第二层 -->
+<view class="top">
+  <view class="top-one">
+    <image src="/images/qiandao/app_img_signin_two.png"></image>
+  <text style="color:#ff97c6;">什么是补签卡？</text>
+  </view>
+  
+<text style="margin-left: 24rpx;margin-top: 10rpx;font-size: 28rpx;">1）<text>每成功邀请一位好友登录浅言即可成功获得一张万</text></text>
+<text style="margin-left: 68rpx;margin-top: 10rpx;font-size: 28rpx;">能补签卡~</text>
+  </view>
+<!-- 第三层 -->
+<view class="top">
+  <view class="top-one">
+    <image src="/images/qiandao/app_img_signin_three.png"></image>
+  <text style="color:#a2dd90;">如何使用补签卡？</text>
+  </view>
+<text style="margin-left: 24rpx;margin-top: 10rpx;font-size: 28rpx;">1）<text>当用户漏签时可用补签卡进行补签哦~</text></text>
+  </view>
