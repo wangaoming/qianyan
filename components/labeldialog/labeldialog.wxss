@@ -1,0 +1,5 @@
+/* components/labeldialog/labeldialog.wxss */
+.top{
+  display: flex;
+  flex-direction: column;
+}

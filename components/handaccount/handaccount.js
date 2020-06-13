@@ -1,4 +1,5 @@
 // components/handaccount/handaccount.js
+
 Component({
   /**
    * 组件的属性列表
@@ -12,7 +13,8 @@ Component({
    */
   data: {
     navbar:['浅记','手账'],
-    currentTab:0
+    currentTab:0,
+    
 
   },
 
@@ -34,6 +36,15 @@ swiperChange: function (e) {
   })
 
 },
-
+click(){
+  var that = this
+  that.labledialog.showLabelDialog();
+},
+comfirmEvent(){
+  this.labledialog. hideLabelDialog();
+}
+  },
+  onReady(){
+    this.labledialog = this.selectComponent("#labeldialog")
   }
 })

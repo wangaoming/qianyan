@@ -1,19 +1,107 @@
 <!--components/handaccount/handaccount.wxml-->
 <view class="top">
-  <image></image>
+  <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
   <!-- 导航条 -->
   <view class="navbar">
     <text wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</text>
 </view>
+<text class="fabu">发布</text>
 </view>
-<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+
+<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:800px;">
   <!-- 浅记 -->
-   <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
-       <scroll-view ></scroll-view>
+   <swiper-item ><view hidden="{{currentTab!==0}}" class="hidden">
+       <scroll-view >
+         <view style="display: flex;flex-direction: column;"class="hhhh">
+           <view class="date" style="display: flex;flex-direction: row;align-items: center;">
+         <text style="color: #ffa3c5;font-size: 80rpx;margin-left: 30rpx;">11</text>
+         <view style="display: flex;flex-direction: column;margin-left: 20rpx;">
+        <text style="color: #9b9b9b;font-size: 27rpx;">星期四</text>
+        <view style="display: flex;flex-direction: row;margin-top: 10rpx;">
+        <text style="color: #9b9b9b;font-size: 27rpx;width: 160rpx;">2020年6月</text>
+        <image src="/images/zuixin/app_img_weather_0.png" style="height: 40rpx;width: 40rpx;"></image>
+        </view>
+        </view>
+        <view style="display: flex;flex-direction: column;margin-left: 310rpx;">
+         <image src="/images/qiandao/app_img_lock_close.png" style="height: 50rpx;width: 50rpx;"></image>
+        <text style="color: #9b9b9b;font-size: 27rpx;">私密</text>
+        </view>
+           </view>
+<textarea placeholder="岁月拾起，随笔浅记。" style="margin-top: 20rpx;margin-left: 40rpx;"></textarea>
+    <button style="border: 1px#ddd;color:#b89aff ;font-size: 24rpx;text-align: center;width:215rpx;height:60rpx;border-radius: 14rpx;margin-left: 40rpx;margin-top: -20rpx;" bindtap="click">#添加标签</button>
+    
+  </view>
+         <!-- 下框选择 -->
+         <view class="bottom" style="display: flex;flex-direction: row;align-items: center;justify-content: center;">
+        <image src="/images/qiandao/app_img_writediary_talk.png"></image>
+        <image src="/images/qiandao/app_img_writediary_color.png"></image>
+        <image src="/images/qiandao/app_img_writediary_photo.png"></image>
+        </view>
+   </scroll-view>
    </view></swiper-item> 
+
    <!-- 手账 -->
-   <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
-       <scroll-view ></scroll-view>
-   </view></swiper-item> 
+   <swiper-item ><view  hidden="{{currentTab!==1}}" class="hidden">
+       <scroll-view style="height: 1200px;" >
+         <!-- 手帐 -->
+         <view class="scrap" style=" display: flex;flex-direction: column;align-items: center;justify-content: center;">
+           <view class="hh" style=" display: flex;flex-direction: row;">
+           <!-- 添加 -->
+           <view class="add" style="margin-left: 6rpx;">
+             <image src="/images//qiandao/app_img_scrap_add_scrap_book.png"></image>
+              <text style="color:#a7a7a7;font-size: 28rpx;">新建手帐本</text>
+            </view>
+
+            <view style= "display: flex;flex-direction: column;margin-left:30rpx;" class="ee">
+              <view  style="margin-top: 100rpx;" class="book"><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
+          <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;">
+          <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;">文字日记</text>
+          <text style="font-size: 18rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:10rpx;">0<text style="font-size: 18rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.情感小屋</text></text>
+          <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
+          <image style="height: 30rpx;width: 30rpx;margin-left: 200rpx" src="/images/zuixin/app_img_like.png"></image>
+           <text style="font-size: 25rpx;color:#a7a7a7;margin-left:10rpx;">赞</text>
+           <image style="height: 30rpx;width: 30rpx;margin-left: 10rpx;" src="/images/zuixin/app_img_share_comment_share.png"></image>
+        </view>
+         </view>
+            </view>
+          </view>
+
+          <!-- 第二行 -->
+          <view class="hh" style=" display: flex;flex-direction: row;margin-top: -70rpx;">
+           <!-- 第二本 -->
+           <view style= "display: flex;flex-direction: column;margin-left: 6rpx;" class="ee">
+            <view  style="margin-top: 100rpx;" class="book1" ><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
+        <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;">
+        <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;">美食日记</text>
+        <text style="font-size: 18rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:10rpx;">2<text style="font-size: 18rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.碎碎念</text></text>
+        <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
+        <image style="height: 30rpx;width: 30rpx;margin-left: 200rpx" src="/images/zuixin/app_img_like.png"></image>
+         <text style="font-size: 25rpx;color:#a7a7a7;margin-left:10rpx;">赞</text>
+         <image style="height: 30rpx;width: 30rpx;margin-left: 10rpx;" src="/images/zuixin/app_img_share_comment_share.png"></image>
+      </view>
+       </view>
+          </view>
+
+ <!-- 第三本 -->
+             <view style= "display: flex;flex-direction: column;margin-left: 30rpx;" class="ee">
+               <view  style="margin-top: 100rpx;" class="book2"><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
+           <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;">
+           <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;">时光日记</text>
+           <text style="font-size: 18rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:10rpx;">0<text style="font-size: 18rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.文字控</text></text>
+           <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
+           <image style="height: 30rpx;width: 30rpx;margin-left: 200rpx" src="/images/zuixin/app_img_like.png"></image>
+            <text style="font-size: 25rpx;color:#a7a7a7;margin-left:10rpx;">赞</text>
+            <image style="height: 30rpx;width: 30rpx;margin-left: 10rpx;" src="/images/zuixin/app_img_share_comment_share.png"></image>
+         </view>
+          </view>
+             </view>
+           </view>
+         </view>
+         <view style="height: 400rpx;flex-direction: column;display: flex;align-items: center;justify-content: center;">主人，我也是有底线的~</view>
+      <view class="ii" ><button>创建手帐</button></view> 
+        </scroll-view>
+      </view>
+  </swiper-item> 
  
 </swiper>
+    

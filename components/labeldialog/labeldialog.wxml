@@ -1,0 +1,8 @@
+<!--components/labeldialog/labeldialog.wxml-->
+<view class="top" hidden="{{!isShow}}">
+<image style="width: 55rpx;height:55rpx" src="/images/qiandao/app_img_label_choose_no.png"></image>
+<view class="" style="display: flex;flex-direction: row;" catchtap='confirmhandle' >
+<text>#</text>
+<input>请输入标签</input>
+</view>
+</view>

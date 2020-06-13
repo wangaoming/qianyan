@@ -4,12 +4,14 @@
   flex-direction: row;
   align-items: center;
   border-bottom: 1px solid #eee;
+  width: 800rpx;
   background: white;
   /* 顶部导航栏固定 */
   position:fixed; 
   top:0;
   /* 设置元素的堆叠顺序 */
   z-index: 999;
+  margin-top: -30rpx;
 }
 .navbar{
   flex: none;
@@ -36,8 +38,90 @@
   flex: auto;
   text-align: center;
   line-height: 100rpx;
+  color: #c5c5c5;
   
 }
-.navbar .item:nth-child(1),.navbar .item:nth-child(2){
-  margin-left: 70rpx;
+.navbar .item:nth-child(2){
+  margin-left:120rpx;
+}
+.navbar .item:nth-child(1){
+  margin-left: 180rpx;
+}
+.top-img{
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+}
+.fabu{
+  margin-left: 140rpx;
+  color: #b89aff;
+  font-size: 30rpx;
+}
+.hhhh{
+  margin-top: 110rpx;
+
+}
+.bottom{
+  border-top: 1px solid #eee;
+  margin-top:560rpx;
+  height: 80rpx;
+}
+.bottom image{
+width: 58rpx;height: 42rpx;
+}
+.bottom image:nth-child(2){
+  margin-left: 240rpx;
+  margin-right: 238rpx;
+}
+
+/* 手帐 */
+.book1{
+  background-image: url("https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3025976706,1082702786&fm=26&gp=0.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 334rpx;
+  height: 470rpx;
+  border-radius: 14rpx;
+  box-shadow: #666 0px 0px 10px; 
+}
+.book{
+  background-image: url("https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4186702817,2981121423&fm=26&gp=0.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 334rpx;
+  height: 470rpx;
+  border-radius: 14rpx;
+ 
+   box-shadow: #666 0px 0px 10px; 
+}
+.book2{
+  background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3054549624,975890905&fm=26&gp=0.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 334rpx;
+  height: 470rpx;
+  border-radius: 14rpx;
+   box-shadow: #666 0px 0px 10px; 
+}
+.add{
+  width: 334rpx;
+  height: 470rpx;
+  border-radius: 14rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100rpx;
+   box-shadow: #666 0px 0px 10px; 
+}
+.add image{
+  width: 100rpx;
+  height: 100rpx;
+}
+.ii button{
+  width:700rpx;
+  background:#b89aff;
+  color: white;
+
+
 }
