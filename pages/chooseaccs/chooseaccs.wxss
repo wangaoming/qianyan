@@ -1,0 +1,81 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    margin-top: -4rpx;
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+  margin-left: 20rpx;
+}
+.title text{
+    font-size: 28rpx;
+   margin-top: -40rpx;
+   font-weight: normal;
+   margin-bottom: 20rpx;
+   margin-left: 250rpx;
+}
+
+.save{
+
+    font-size: 25rpx;
+    color: #b89aff;
+    margin-left: 250rpx;
+   
+    
+}
+
+.pho{
+    display: flex;
+    height:830rpx;
+    align-items: center;
+    justify-content: center;
+    
+}
+.book1{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 334rpx;
+    height: 470rpx;
+    border-radius: 14rpx;
+    box-shadow: #666 0px 0px 10px; 
+  }
+  .ee{
+      margin-top: -100rpx;
+  }
+  .hhh{
+      /* 同一行 融合 */
+      display: inline-block;
+      flex-direction: column;
+      /* align-items: center; */
+      height: 350rpx;
+      text-align:center;
+
+      margin-left: 30rpx;
+      
+     
+  }
+  .hhh image{
+      width:200rpx ;
+      height: 260rpx;
+      border-radius: 14rpx;
+      margin-bottom: 10rpx;
+     
+
+  }
+  
+  .hhh text{
+      font-size: 28rpx;
+  }
+  .ss{
+     height: 350rpx;
+     /* 所有元素不换行 */
+     white-space: nowrap;
+     /* align-items: center; */
+     
+  }
+  

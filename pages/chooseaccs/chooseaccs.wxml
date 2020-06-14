@@ -1,0 +1,40 @@
+<!--pages/chooseaccs/chooseaccs.wxml-->
+
+<!-- 浅言手帐封面选择 -->
+<!-- 顶部导航栏 -->
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+          编辑封面
+      </text>
+
+      <text class="save" style="margin-top: 0px;" bindtap="save">保存</text>
+</view>
+
+
+
+
+<view class="pho">
+
+    <view style= "display: flex;flex-direction: column;margin-left: 6rpx;" class="ee">
+    <view  style="margin-top: 100rpx;background-image: url({{image}});" class="book1" >
+        
+       <image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image>
+      </view>
+    
+    </view>
+</view>
+
+<!-- 底部选项 -->
+<scroll-view class="ss" scroll-x style="width:100%">
+  
+    <view class="hhh" wx:for="{{list}}" wx:key="{{id}}"  bindtap="choose">
+      <image class=""  src="{{item.img}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" data-img='{{item.img}}'  bindtap="choose">
+          
+      </image>
+      <text class="" selectable="false" space="false" decode="false" data-text='{{item.text}}'  bindtap="choose">
+          {{item.text}}
+      </text>
+  </view>
+</scroll-view>

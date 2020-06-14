@@ -1,11 +1,14 @@
 {
   "pages": [
     "pages/qianyan/qianyan",
+    "pages/addhanda/addhanda",
+    "pages/chooseaccs/chooseaccs",
     "pages/shetuan/shetuan",
     "pages/write/write",
     "pages/xiaoxi/xiaoxi",
     "pages/wode/wode",
     "pages/siginrules/siginrules"
+    
     
   ],
   "window": {

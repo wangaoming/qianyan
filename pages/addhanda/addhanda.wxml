@@ -1,0 +1,71 @@
+<!--pages/addhanda/addhanda.wxml-->
+<!-- 新建手账本 -->
+
+<!-- 顶部导航栏 -->
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+          新建手帐本
+      </text>
+</view>
+<!-- 手账本写真 -->
+<view class="pho">
+
+    <view style= "display: flex;flex-direction: column;margin-left: 6rpx;" class="ee">
+    <view  style="margin-top: 100rpx;" class="book1" ><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
+    <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;border-radius: 14rpx;">
+    <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;margin-bottom: 20rpx;">{{text}}</text>
+    <text style="font-size: 28rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:-10rpx;">2<text style="font-size: 28rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.碎碎念</text></text>
+    <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
+    
+  </view>
+   </view>
+      </view>
+    
+</view>
+<!-- 选择操作项 -->
+<view class="settings">
+    <view class="label">
+        <text class="name">手帐本名称</text>
+        <input type="text" class="input" style="text-align: center;" placeholder="请输入手帐本名称"  bindinput="getTextValue" value="textname" bindconfirm="showText"/>
+        <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style="margin-left: -40rpx;"/>
+          
+    </view>
+    <view class="label">
+        <text class="name">手帐本封面</text>
+        <text class="click"  selectable="false" space="false" decode="false" bindtap="chooseaccHandle">
+            {{textname1}}
+        </text>
+        <image class="" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" bindtap="chooseaccHandle" />
+
+    </view>
+        
+    <view class="label">
+        <text class="name">标签</text>
+        <picker  selectable="false" space="false" decode="false" bindchange="bindPickerChange" value="{{index}}" range="{{array}}" >
+            
+                <view class="fb-type">
+                  <view class="type-label">{{array[index]}}</view>
+                  
+                  <image class="" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+
+                </view>
+             
+  
+        </picker>
+        <!-- <image class="" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" /> -->
+
+    </view>
+    <view class="label">
+        <text class="name">权限设置</text>
+        <text class="click1" selectable="false" space="false" decode="false">
+            {{setting}}
+        </text>
+        <image class="" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" bindtap="labelHandle" />
+    </view>
+    
+
+</view>
+
+<button style="width: 340px;">保存</button>

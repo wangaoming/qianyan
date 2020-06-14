@@ -36,6 +36,12 @@ swiperChange: function (e) {
   })
 
 },
+// 手账的增加
+addhandaccount(e){
+  wx.navigateTo({
+    url: '../../pages/addhanda/addhanda',
+  })
+},
 click(){
   var that = this
   that.labledialog.showLabelDialog();

@@ -48,13 +48,14 @@
            <view class="hh" style=" display: flex;flex-direction: row;">
            <!-- 添加 -->
            <view class="add" style="margin-left: 6rpx;">
-             <image src="/images//qiandao/app_img_scrap_add_scrap_book.png"></image>
-              <text style="color:#a7a7a7;font-size: 28rpx;">新建手帐本</text>
+             <image src="/images//qiandao/app_img_scrap_add_scrap_book.png" bindtap="addhandaccount"></image>
+              <text style="color:#a7a7a7;font-size: 28rpx;margin-top: 30rpx;">新建手帐本</text>
             </view>
+            <!-- 第一本 -->
 
             <view style= "display: flex;flex-direction: column;margin-left:30rpx;" class="ee">
               <view  style="margin-top: 100rpx;" class="book"><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
-          <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;">
+          <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;border-radius: 14rpx;">
           <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;">文字日记</text>
           <text style="font-size: 18rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:10rpx;">0<text style="font-size: 18rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.情感小屋</text></text>
           <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
@@ -71,7 +72,7 @@
            <!-- 第二本 -->
            <view style= "display: flex;flex-direction: column;margin-left: 6rpx;" class="ee">
             <view  style="margin-top: 100rpx;" class="book1" ><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
-        <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;">
+        <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;border-radius: 14rpx;">
         <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;">美食日记</text>
         <text style="font-size: 18rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:10rpx;">2<text style="font-size: 18rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.碎碎念</text></text>
         <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
@@ -85,7 +86,7 @@
  <!-- 第三本 -->
              <view style= "display: flex;flex-direction: column;margin-left: 30rpx;" class="ee">
                <view  style="margin-top: 100rpx;" class="book2"><image src="/images/qiandao/app_img_scrap_scrap_book_border_bg.png" style="width: 320rpx;height: 470rpx;"></image></view>
-           <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;">
+           <view style="margin-top: -120rpx;width: 334rpx;height:120rpx;background:rgba(255,255,255, .6);display: flex;flex-direction: column;border-radius: 14rpx;">
            <text style="font-size:25rpx;font-weight: bold;margin-left: 20rpx;margin-top: 20rpx;">时光日记</text>
            <text style="font-size: 18rpx;color:#a7a7a7;margin-left: 20rpx;margin-bottom: 5rpx;margin-top:10rpx;">0<text style="font-size: 18rpx;color:#a7a7a7;margin-left: 5rpx;">篇手帐.文字控</text></text>
            <view style="display: flex;flex-direction: row;align-items: center;margin-top: -10rpx;">
