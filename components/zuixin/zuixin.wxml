@@ -1,6 +1,16 @@
 <!--components/zuixin/zuixin.wxml-->
 <view class="page1">
-  <input placeholder="请输入想要搜索的浅友或内容" class="input"></input>
+  <!-- 搜索框 -->
+  
+<view class="search">
+  <view class="input-wrapper">
+    <image src="/images/qiandao/app_img_search.png" class="searchImg" style="width: 30rpx;height: 30rpx;"></image>
+    <input placeholder="请输入想要搜索的浅友或内容" class="input" adjust-position style="font-size: 20rpx;width: 200rpx;" ></input>
+  </view>
+</view>
+   
+  
+
   <!--内容 -->
   <view class="zhongdian" wx:for='{{list}}' wx:key= "{{id}}">
 <!-- 第一层 -->
