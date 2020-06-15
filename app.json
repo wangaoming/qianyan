@@ -1,5 +1,7 @@
 {
   "pages": [
+    
+    "pages/infors/infors",
     "pages/qianyan/qianyan",
     "pages/addhanda/addhanda",
     "pages/chooseaccs/chooseaccs",
@@ -8,6 +10,7 @@
     "pages/xiaoxi/xiaoxi",
     "pages/wode/wode",
     "pages/siginrules/siginrules"
+    
     
     
   ],

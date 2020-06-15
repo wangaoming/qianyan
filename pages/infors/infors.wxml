@@ -1,0 +1,84 @@
+<!--pages/infors/infors.wxml-->
+<!-- 顶部导航栏 -->
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+          修改资料
+      </text>
+
+      <text class="save" style="margin-top: 0px;" bindtap="save">保存</text>
+</view>
+<!-- 头像 -->
+<view class="head" style="display: flex;flex-direction: column;align-items: center;border-bottom: #eee 1px solid;"> 
+ 
+    <image class="touxiang" src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3256100974,305075936&fm=26&gp=0.jpg;"></image>
+    <image style="height: 60rpx;width: 60rpx;margin-left: 100rpx;margin-top: -60rpx;" class="" src="/images/wode/app_img_personal_photo.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+    </image>
+    <text style="margin-bottom: 20rpx;font-size: 24rpx;color:#a7a7a7;margin-top: -20rpx" class="" selectable="false" space="false" decode="false">
+    头像会作用公开资料 
+</text>
+<view style="width: 100%;height:10rpx;background-color: #f8f8f8;" class="" hover-class="none" hover-stop-propagation="false">
+    
+</view>
+</view>
+<!-- 选项 -->
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">昵称</view>
+    <input type="text" class="input" style="text-align: right;;width: 315rpx;color: #9e9e9e;margin-left: 270rpx;" placeholder="请输入昵称" />
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">性别</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left: 550rpx;">女</view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+
+   
+<view style="display: flex;flex-direction: column;">
+<view style="display: flex;flex-direction: row; "> 
+    <view class="name" style="margin-top: 40rpx;">签名</view>
+    <textarea style="color: #9e9e9e;margin-top: 20rpx;height: 150rpx;margin-left: 50rpx;">慵懒~是一种生活的姿态！</textarea>
+</view>
+<view style="width: 100%;height:10rpx;background-color: #f8f8f8;border-bottom: 1px solid #eee;" class="" hover-class="none" hover-stop-propagation="false">
+</view>
+</view>
+
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">生日</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left: 580rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+<view style="display: flex;flex-direction: column;">
+<view  class="" style="display: flex;height: 100rpx;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+    <view class="name">星座</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left: 580rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+
+<view style="width: 100%;height:10rpx;background-color: #f8f8f8;border-bottom: 1px solid #eee;" class="" hover-class="none" hover-stop-propagation="false">
+</view>
+</view>
+
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">所在地</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left: 550rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">职业</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left: 580rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">个性标签</view>
+    <view style="background-color: #f6e0f4;color: #d462ca;text-align: center;margin-left: 220rpx;line-height: 40rpx;font-size: 22rpx;border-radius: 8rpx;width: 300rpx;height: 40rpx;">我懒，我任性，不想告诉你~</view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
