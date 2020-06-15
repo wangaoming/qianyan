@@ -1,1 +1,177 @@
-/* pages/wode/wode.wxss */
+
+page{
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-up{
+   margin-top: -270rpx;
+   margin-left: 20rpx;
+    background-repeat: no-repeat;
+    background-size: 100% 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.top-up-up{
+    display: flex;
+    flex-direction: row; 
+}
+.top-up-up-right{
+    display: flex;
+    flex-direction: column;
+    margin-left:38rpx;
+    margin-top: 16rpx;
+}
+.up-right-up{
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+.up-right-down{
+    margin-top: 30rpx;
+    margin-left: 20rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+.img1{
+    width: 92rpx;
+    height: 92rpx;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+    }
+.touxiang{
+        width:90rpx;
+        height: 90rpx;
+        border-radius: 50%;
+      }
+.biaoshi{
+        width:58rpx;
+        height:30rpx;
+        font-size: 18rpx;
+        text-align: center;
+        color: white;
+        line-height: 30rpx;
+        border-radius: 20rpx;
+        background-color: #ff9cc6;
+        border: 2px solid white;
+       margin-top: 62rpx;
+       margin-left: -64rpx;
+      }
+      .setting{
+          width: 40rpx;
+          height: 40rpx;
+          margin-top: -20rpx;
+          margin-left: 280rpx;
+      }
+      .notice{
+        width: 35rpx;
+        height: 35rpx;
+        margin-top: -22rpx;
+        margin-left: 20rpx;
+      }
+      
+      .up-right-down text{
+          font-size: 18rpx;
+          color: white;
+      }
+      .progress{
+          margin-left: 10rpx;
+          width: 390rpx;
+          height: 24rpx;
+          display: flex;
+          align-items: center;
+          border-radius: 20rpx;
+          background: white;
+      }
+      .progresss{
+          width: 56%;
+          display: flex;
+          align-items: center;
+          height: 20rpx;
+          margin-top: 2rpx;
+          margin-left: 4rpx;
+          border-radius: 20rpx;
+          background:linear-gradient(to right,#ff9cc6,#a02bc2)
+      }
+      .hh{
+          
+          margin-top: -20rpx;
+          margin-left: 160rpx;
+      }
+      .xiaobian{
+          margin-left:10rpx ;
+      }
+      .four{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+      }
+      .list{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-size: 25rpx;
+           width: 170rpx ;
+           margin-top: 20rpx;
+      }
+      .top-down{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          width: 92%;
+          border-radius: 20rpx;
+          background-color: white;
+          box-shadow: 1px 1px 2px #888888;
+          
+        }
+        .down1{
+            display: flex;
+          flex-direction: row;
+          align-items: center;
+          
+        }
+        .down11{
+          margin-left: 20rpx;
+          display: flex;
+          flex-direction:column;
+          align-items: center;
+          margin-top: -20rpx;
+        }
+        .jj{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content: center;
+            height: 30rpx;
+             margin-top: 10rpx;
+            
+        }
+        .middle{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: white;
+            border-radius: 20rpx;
+            box-shadow: 1px 1px 2px #888888;
+            width: 92%;
+            margin-top: 20rpx;
+           
+        }
+        .one{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .ll{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }

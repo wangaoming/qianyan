@@ -1,5 +1,169 @@
 <!--pages/wode/wode.wxml-->
-<view>
+<view class="img">
   <tabbar tabbar="{{tabbar}}"></tabbar>
-  <image src="/images/wodezhuye.png" style="width: 102px;height:120px;"></image>
 </view>
+<image class="" style="width:100%;height:340rpx" src="https://s1.ax1x.com/2020/06/15/Npy3bq.png" alt="Npy3bq.png"  mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+    
+  </image>
+<!-- 我的页面 -->
+<!-- 头部 个人头像 设置  --topup -->
+<view class="top-up">
+<!-- 个人设置 -->
+<view class="top-up-up">
+  <!-- 头像 -->
+   <view class="img1" >
+    <image class="touxiang" src="http://img5.imgtn.bdimg.com/it/u=183326193,1784969774&fm=26&gp=0.jpg"></image>
+  </view>
+  <text class="biaoshi" >小编I</text>
+<view class="top-up-up-right">
+  
+  <view class="up-right-up">
+    <text class="name" style="font-size: 30rpx;color: white;margin-top: -6rpx;margin-left: 20rpx;">Esperanza</text> 
+    <image class="setting" src="/images/wode/app_img_personalcenter_set.png"></image>
+    <image class="notice" src="/images/wode/app_img_personalcenter_announcement.png"></image>
+   
+  </view>
+  <view class="up-right-down">
+    <text class="" selectable="false" space="false" decode="false">小编I</text>
+    <!-- 模仿进度条 -->
+    <view class="progress">
+      <view class="progresss" hover-class="none" hover-stop-propagation="false" >
+         <text class="hh" selectable="false" space="false" decode="false" style="color: black;font-size: 15rpx;">
+           179/328
+         </text>
+           
+      </view>
+    </view>
+    <text class="xiaobian" selectable="false" space="false" decode="false">小编II</text>
+  </view>
+</view>
+</view>
+
+</view>
+<!-- 浅记等四个 -->
+<view class="four">
+<view class="list" wx:for="{{list}}">
+  <view class="" selectable="false" space="false" decode="false" style=" text-align: center;">
+    {{item.text}}
+  </view>
+  <view class="" selectable="false" space="false" decode="false" style="text-align: center;text-align: center;margin-top: 15rpx;margin-bottom: 10rpx;">
+    {{item.num}}
+  </view>
+
+</view>
+
+</view>
+
+<!-- 会员特权等 -->
+<view class="top-down">
+<!-- 第一个 -->
+<view class="down1">
+
+  <view class="down11">
+<view style="font-weight: bold;font-size:28rpx;margin-top: 35rpx;">会员特权</view>
+<view  class="jj">
+  <view style="font-size: 22rpx;color: #b89aff;margin-left: -10rpx;margin-bottom: 10rpx;">立刻体验</view>
+  <image src="/images/wode/arrow_icon.png" style="height: 15rpx;width:8rpx;margin-left:5rpx;margin-top: 2rpx;"></image>
+</view>
+</view>
+
+  <image src="/images/wode/app_img_personal_vip_img.png" style="width: 70rpx;height: 60rpx;margin-left: 10rpx;"></image>
+<!-- 竖线 -->
+ <view style="width: 2rpx;height:100rpx;background-color: #eee;margin-left: 10rpx;"></view>
+</view>
+
+<!-- 第二个 -->
+<view class="down1">
+
+  <view class="down11" style="margin-top: -25rpx;">
+<view style="font-weight: bold;font-size:28rpx;margin-top:60rpx;">邀请有礼</view>
+<view  class="jj" style="margin-top:20rpx;margin-left: -8rpx;margin-bottom: 10rpx;">
+  <swiper class=""  style="height: 50rpx;width: 90rpx;text-align: center;"
+      duration="800" circular="true" vertical="true" autoplay="true" interval='5000'
+   bindchange="">
+    <swiper-item class="" item-id="">
+      <view style="font-size: 22rpx;color: #b89aff;margin-left: -14rpx;margin-top: -10prx;">领取vip</view>
+    </swiper-item>
+    <swiper-item class="" item-id="">
+      <view style="font-size: 19rpx;color: #b89aff;display: flex;flex-direction: row;align-items: center;margin-top: -10prx;">领取188<image src="/images/qiandao/app_img_coin_icon.png" style="height: 30rpx;width: 20rpx;"></image></view>
+    </swiper-item>
+  </swiper>
+  
+  <image src="/images/wode/arrow_icon.png" style="height: 15rpx;width:8rpx;margin-left:5rpx;margin-top:-24rpx;"></image>
+</view>
+</view>
+
+  <image src="/images/wode/app_img_personal_gift_img.png" style="width: 60rpx;height: 60rpx;margin-left: 10rpx;"></image>
+<!-- 竖线 -->
+ <view style="width: 2rpx;height:100rpx;background-color: #eee;margin-left: 10rpx;"></view>
+</view>
+
+
+<!-- 第三个 -->
+<view class="down1" style="margin-right: 10rpx;">
+
+  <view class="down11">
+<view style="font-weight: bold;font-size:28rpx;margin-top: 35rpx;">签到有礼</view>
+<view  class="jj">
+  <view style="font-size: 22rpx;color: #b89aff;margin-left: -10rpx;margin-bottom: 20rpx;margin-top: 20rpx;">立刻签到</view>
+  <image src="/images/wode/arrow_icon.png" style="height: 15rpx;width:8rpx;margin-left:5rpx;margin-top: 2rpx;"></image>
+</view>
+</view>
+
+  <image src="/images/wode/app_img_personal_sign_img.png" style="width: 60rpx;height: 60rpx;margin-left: 30rpx;"></image>
+
+</view>
+
+</view>
+<scroll-view class="" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+  scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+  bindscrolltoupper="" bindscrolltolower="" bindscroll="" style="display: flex;align-items: center;margin-left: 60rpx;height: 1000rpx;">
+  
+<!-- 我的服务 -->
+<view class="middle">
+<view style="margin-top: 20rpx;margin-bottom: 20rpx;margin-left:-500rpx ;font-size: 28rpx;">我的服务</view>
+<!-- 第一行 -->
+<view class="one">
+<view class="ll" wx:for="{{serlist1}}" style="width: 170rpx;">
+  <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;"></image>
+  <view style="font-size: 22rpx;margin-top: 15rpx;">{{item.text}}</view>
+</view>
+</view>
+<!-- 第二行 -->
+<view class="one" style="margin-top: 20rpx;margin-bottom: 10rpx;">
+  <view class="ll" wx:for="{{serlist2}}" style="width: 170rpx;">
+    <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;"></image>
+    <view style="font-size: 22rpx;margin-top: 15rpx;">{{item.text}}</view>
+  </view>
+  </view>
+
+</view>
+<!-- 特色功能 -->
+<view class="middle">
+
+  <view style="margin-top: 20rpx;margin-bottom: 20rpx;margin-left:-500rpx ;font-size: 28rpx;">特色功能</view>
+  <!-- 第一行 -->
+  <view class="one">
+  <view class="ll" wx:for="{{serlist3}}" style="width: 170rpx;">
+    <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;"></image>
+    <view style="font-size: 22rpx;margin-top: 15rpx;">{{item.text}}</view>
+  </view>
+  </view>
+  <!-- 第二行 -->
+  <view class="one" style="margin-top: 20rpx;margin-bottom: 10rpx;">
+    <view class="ll" wx:for="{{serlist4}}" style="width: 170rpx;">
+      <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;"></image>
+      <view style="font-size: 22rpx;margin-top: 15rpx;">{{item.text}}</view>
+    </view>
+    </view>
+    <!-- 第三行 -->
+
+    <view class="one" style="margin-top: 20rpx;margin-bottom: 10rpx;">
+      <view class="ll" wx:for="{{serlist5}}" style="width: 170rpx;">
+        <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;"></image>
+        <view style="font-size: 22rpx;margin-top: 15rpx;">{{item.text}}</view>
+      </view>
+      </view>
+</view>
+
+</scroll-view>
