@@ -1,8 +1,8 @@
 {
   "pages": [
-    
-    "pages/infors/infors",
     "pages/qianyan/qianyan",
+    "pages/setting/setting",
+    "pages/infors/infors",
     "pages/addhanda/addhanda",
     "pages/chooseaccs/chooseaccs",
     "pages/shetuan/shetuan",

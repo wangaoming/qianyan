@@ -12,14 +12,14 @@
 <view class="top-up-up">
   <!-- 头像 -->
    <view class="img1" >
-    <image class="touxiang" src="http://img5.imgtn.bdimg.com/it/u=183326193,1784969774&fm=26&gp=0.jpg"></image>
+    <image class="touxiang" src="http://img5.imgtn.bdimg.com/it/u=183326193,1784969774&fm=26&gp=0.jpg" bindtap="inforHandle"></image>
   </view>
   <text class="biaoshi" >小编I</text>
 <view class="top-up-up-right">
   
   <view class="up-right-up">
     <text class="name" style="font-size: 30rpx;color: white;margin-top: -6rpx;margin-left: 20rpx;">Esperanza</text> 
-    <image class="setting" src="/images/wode/app_img_personalcenter_set.png"></image>
+    <image class="setting" src="/images/wode/app_img_personalcenter_set.png" bindtap="settinghandle"></image>
     <image class="notice" src="/images/wode/app_img_personalcenter_announcement.png"></image>
    
   </view>

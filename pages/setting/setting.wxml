@@ -1,0 +1,158 @@
+<!--pages/setting/setting.wxml-->
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+         设置
+      </text>
+   </view>  
+    <scroll-view class="" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+          scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+          bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+          <!--  第一行-->
+<view class="oo">
+    <image  class="hhh" src="/images/wode/app_img_personal_icon_personal.png"></image>
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">个人资料</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left:420rpx;font-size: 22rpx;">编辑</view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+</view>
+
+<view style="display: flex;flex-direction: column;">
+    <view class="oo">
+        <image  class="hhh" src="/images/wode/app_img_personal_account_management.png"></image>
+    
+    <view  class="ll" hover-class="none" hover-stop-propagation="false">
+        <view class="name">帐号管理</view>
+        <view style="color: #9e9e9e;text-align: center;margin-left:310rpx;font-size: 22rpx;">可设置登录密码</view>
+        <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+    </view>
+    </view>
+    
+    <view style="width: 100%;height:10rpx;background-color: #f8f8f8;" class="" hover-class="none" hover-stop-propagation="false">
+    </view>
+    </view>
+
+<!-- 第二行-->
+<view style="display: flex;flex-direction: column;">
+   <!-- 1 -->
+   <view class="oo">
+    <image  class="hhh" src="/images/wode/app_img_set.png"></image>
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">我的隐私</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left:462rpx;font-size: 22rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+</view>
+   <!-- 2 -->
+   <view class="oo">
+    <image  class="hhh" src="/images/wode/app_img_personal_black_list.png"></image>
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">黑名单管理</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left:430rpx;font-size: 22rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+</view>
+   <!-- 3 -->
+   <view class="oo">
+    <image  class="hhh" src="/images/wode/app_img_delete.png"></image>
+
+<view  class="ll" hover-class="none" hover-stop-propagation="false">
+    <view class="name">我的回收站</view>
+    <view style="color: #9e9e9e;text-align: center;margin-left:430rpx;font-size: 22rpx;"></view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+</view>
+</view>
+
+    <view style="width: 100%;height:10rpx;background-color: #f8f8f8;;" class="" hover-class="none" hover-stop-propagation="false">
+    </view>
+    </view>
+    <!-- 第三行 -->
+    <view style="display: flex;flex-direction: column;">
+        <!-- 1 -->
+        <view class="oo">
+         <image  class="hhh" src="/images/wode/app_img_score.png"></image>
+     
+     <view  class="ll" hover-class="none" hover-stop-propagation="false">
+         <view class="name">给浅言评分</view>
+         <view style="color: #9e9e9e;text-align: center;margin-left:430rpx;font-size: 22rpx;"></view>
+         <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+     </view>
+     </view>
+        <!-- 2 -->
+        <view class="oo">
+         <image  class="hhh" src="/images/wode/app_img_share.png"></image>
+     
+     <view  class="ll" hover-class="none" hover-stop-propagation="false">
+         <view class="name">推荐给好友</view>
+         <view style="color: #9e9e9e;text-align: center;margin-left:430rpx;font-size: 22rpx;"></view>
+         <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+     </view>
+     </view>
+        <!-- 3 -->
+        <view class="oo">
+         <image  class="hhh" src="/images/wode/app_img_personal_help.png"></image>
+     
+     <view  class="ll" hover-class="none" hover-stop-propagation="false">
+         <view class="name">帮助与反馈</view>
+         <view style="color: #9e9e9e;text-align: center;margin-left:430rpx;font-size: 22rpx;"></view>
+         <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+     </view>
+     </view>
+     
+         <view style="width: 100%;height:10rpx;background-color: #f8f8f8;" class="" hover-class="none" hover-stop-propagation="false">
+         </view>
+         </view>
+         <!-- 第四行 -->
+         <view style="display: flex;flex-direction: column;">
+           
+            <view class="oo">
+             <image  class="hhh" src="/images/wode/app_img_personal_icon_music.png"></image>
+         
+         <view  class="ll" hover-class="none" hover-stop-propagation="false">
+             <view class="name">浅言主题曲</view>
+             <view style="color: #9e9e9e;text-align: center;margin-left:298rpx;font-size: 22rpx;">聆听浅言初心</view>
+             <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+         </view>
+         </view>
+         
+             <view style="width: 100%;height:10rpx;background-color: #f8f8f8;" class="" hover-class="none" hover-stop-propagation="false">
+             </view>
+             </view>
+             <!-- 第5行 -->
+             <view style="display: flex;flex-direction: column;">
+           
+                <view class="oo">
+                 <image  class="hhh" src="/images/wode/app_img_message.png"></image>
+             
+             <view  class="ll" hover-class="none" hover-stop-propagation="false">
+                 <view class="name">消息通知</view>
+                 <view style="color: #9e9e9e;text-align: center;margin-left:460rpx;font-size: 22rpx;"></view>
+                 <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+             </view>
+             </view>
+             
+                 <view style="width: 100%;height:10rpx;background-color: #f8f8f8;" class="" hover-class="none" hover-stop-propagation="false">
+                 </view>
+                 </view>
+                 <!-- 6行 -->
+                 
+                <view class="oo">
+                    <image  class="hhh" src="/images/wode/app_img_personal_about.png"></image>
+                
+                <view  class="ll" hover-class="none" hover-stop-propagation="false">
+                    <view class="name">关于我们</view>
+                    <view style="color: #9e9e9e;text-align: center;margin-left:460rpx;font-size: 22rpx;"></view>
+                    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
+                </view>
+                </view>
+
+
+
+                <view class="button">退出帐号</view>
+      </scroll-view>
+        

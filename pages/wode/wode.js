@@ -110,7 +110,7 @@ Page({
   // 个人资料
   inforHandle(){
    wx.navigateTo({
-     url: '../../pages/ infors/ infors',
+     url: '../../pages/infors/infors',
      success: function(res){
        // success
      },
@@ -121,6 +121,20 @@ Page({
        // complete
      }
    })
+  },
+  settinghandle(){
+wx.navigateTo({
+  url: '../../pages/setting/setting',
+  success: function(res){
+    // success
+  },
+  fail: function() {
+    // fail
+  },
+  complete: function() {
+    // complete
+  }
+})
   },
   /**
    * 生命周期函数--监听页面加载

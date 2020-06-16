@@ -1,0 +1,61 @@
+page{
+    display: flex;
+    flex-direction: column;
+   
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    margin-top: -4rpx;
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+  margin-left: 20rpx;
+}
+.title text{
+    font-size: 28rpx;
+   margin-top: -40rpx;
+   font-weight: normal;
+   margin-bottom: 20rpx;
+   margin-left: 300rpx;
+}
+.ll{
+    display: flex;
+    height: 100rpx;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.name{
+    margin-left:30rpx ;
+}
+.hh{
+    margin-left: 20rpx;
+}
+.oo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hhh{
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 30rpx;
+}
+.button{
+    width:700rpx;
+    background:#b89aff;
+    color: white;
+  margin-top: 100rpx;
+  border-radius: 8rpx;
+  margin-bottom: 40rpx;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+ margin-left: 30rpx;
+  }
