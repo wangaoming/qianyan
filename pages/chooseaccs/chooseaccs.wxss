@@ -72,6 +72,7 @@
       font-size: 28rpx;
   }
   .ss{
+      /* 里面的div要和外面的scroll-view统一高度 */
      height: 350rpx;
      /* 所有元素不换行 */
      white-space: nowrap;

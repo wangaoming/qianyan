@@ -1,0 +1,184 @@
+<!-- 顶部导航栏 -->
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+         会员尊享特权
+      </text>
+   </view> 
+
+<!-- 中间下拉内容 -->
+<scroll-view class="ss" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+    scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+    style="height:1700rpx;"
+    bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+    
+
+
+<view class="middle">
+<!-- 卡片 -->
+ <view class="card" >
+     <!-- 头像等 -->
+    <view class="head"style="margin-top: 40rpx;margin-left: 40rpx;">
+        <view class="img1" >
+            <image class="touxiang" src="http://img5.imgtn.bdimg.com/it/u=183326193,1784969774&fm=26&gp=0.jpg" bindtap="inforHandle"></image>
+        </view>
+        <view style="color: #d08214;margin-left: 10rpx;">尊敬的用户Naomi</view>
+          <image src="/images/vip/app_img_vip_no_vip_icon.png" style="height:50rpx;width:50rpx;margin-left: 30rpx;"></image>
+    </view>
+    <view style="margin-top: 20rpx;color: #8d6a38;font-size: 22rpx;margin-left: 40rpx;">您还未开通特权哦~</view>
+    <!-- 升级文字 -->
+    <view class="promition" style=" margin-bottom: 10rpx;margin-top: 20rpx;margin-left: 40rpx;display: flex;flex-direction: row;align-items: center;">
+     <view style="color: #905c11;font-size: 28rpx;">2倍升级加速+2倍权益奖励</view>
+     <view style="margin-left: 110rpx;margin-top: -20rpx;background-color: none;border-radius:25rpx;width: 170rpx;height: 50rpx;border: 1px solid #816030;line-height: 50rpx;font-size: 28rpx;color: #905c11;text-align: center;">立刻体验</view>
+
+    </view>
+</view>
+</view>
+<!--会员尊16大特权 -->
+
+<!-- 标题 -->
+<view class="titles">
+    <view class="shuxian"></view>
+    <view class="wenzi">会员尊享16大特权</view>
+    <view class="" style="font-size: 20rpx;margin-left: 325rpx;">全部权益</view>
+    <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 13rpx;height: 16rpx;margin-left:10rpx; "/>
+</view>
+<view class="label">
+    <view class="l1">
+<image class= src="/images/vip/app_img_vip_privilege_vip.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" style="width: 90rpx;height: 90rpx;" />
+<view style="display: flex;flex-direction: column;margin-left:10rpx;">
+
+    <view style="font-size:28rpx ;margin-bottom: 20rpx;">专属标识</view>
+    <view style="font-size: 23rpx;color: #999;">凸显会员权益</view>
+</view>  
+    </view>
+
+    <view class="l1" style="border-right: none;">
+        <image class= src="/images/vip/app_img_vip_privilege_upgrade.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" style="width: 90rpx;height: 90rpx;margin-left: 30rpx;" />
+        <view style="display: flex;flex-direction: column;margin-left:10rpx;">
+        
+            <view style="font-size:28rpx ;margin-bottom: 20rpx;">助力升级</view>
+            <view style="font-size: 23rpx;color: #999;">成长值2倍加速</view>
+        </view>  
+            </view>
+</view>
+<!-- 第二行 -->
+<view class="label">
+    <view class="l1" style="border-top: 1px soild #eee;border-bottom: none;">
+<image class= src="/images/vip/app_img_vip_privilege_club.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" style="width: 90rpx;height: 90rpx;" />
+<view style="display: flex;flex-direction: column;margin-left:10rpx;">
+
+    <view style="font-size:28rpx ;margin-bottom: 20rpx;">创建专属社团</view>
+    <view style="font-size: 23rpx;color: #999;">创建社团无门槛</view>
+</view>  
+    </view>
+
+    <view class="l1" style="border-right: none;border-bottom: none;">
+        <image class= src="/images/vip/app_img_vip_privilege_defender.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" style="width: 90rpx;height: 90rpx;margin-left: 30rpx;" />
+        <view style="display: flex;flex-direction: column;margin-left:20rpx;">
+        
+            <view style="font-size:28rpx ;margin-bottom: 20rpx;">守卫者</view>
+            <view style="font-size: 23rpx;color: #999;">做裁判守护浅言</view>
+        </view>  
+            </view>
+</view>
+
+
+<!-- 开通会员 -->
+<view class="titles">
+    <view class="shuxian"></view>
+    <view class="wenzi">开通会员</view>
+</view>
+<view class="vip" style="display: flex;flex-direction: row;align-items: center;">
+
+
+<view class="pp" style="" wx:for="{{list}}" style="background-image: url({{item.beijing}});" data-beijing="{{item.beijing}}" bindtap="change" >
+ <view style="margin-top: 40rpx;">{{item.yueshu}}个月</view>
+
+ <view style="margin-top: 20rpx;display: flex;flex-direction: row;align-items: center;">
+<view style="color: #f8645f;">￥</view><view style="font-size:35rpx;color: #f8645f;">{{item.xianjia}}</view>
+<view style="color: #999;font-size: 18rpx;">￥{{item.yuanjia}}</view>
+<view style="width: 30rpx;background-color: #999;height: 2rpx;margin-left: -40rpx;"></view>
+</view>
+
+<view class="gold" style="display: flex;flex-direction: column;margin-top: 20rpx;">
+
+<view style="display: flex;flex-direction: row;align-items: center;">
+<image src="/images/vip/app_img_vip_growup.png" style="width: 20rpx;height:20rpx;margin-left: 22rpx;"></image>
+<view style="color: #61b620;font-size:21rpx;">送{{item.chengzhang}}成长值</view>
+</view>
+
+
+<view style="margin-top: 15rpx;display: flex;flex-direction: row;align-items: center;">
+    <image src="/images/vip/app_img_vip_coin.png" style="width: 20rpx;height:20rpx;margin-left: 22rpx;"></image>
+    <view  style="color: #f2b950;font-size:21rpx;">送{{item.qianbi}}浅币</view>
+    </view>
+
+</view>
+
+</view>
+</view>
+<view style="font-size: 22rpx;margin-left: 30rpx;color: #a67400;margin-top: -10rpx;">首次特惠仅限首先购买,再次购买不享受优惠</view>
+<!-- 支付方式 -->
+<view class="pay" style="display: flex;flex-direction: row;align-items: center;margin-left: 30rpx;margin-top: 40rpx;">
+<view style="font-size: 28rpx;">
+    选择支付方式:
+</view>
+  
+      <image style="margin-left: 10rpx;width: 60rpx;height: 60rpx;" class="" src="/images/vip/app_img_pay_icon_wechatpay.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+      <image style="width: 32rpx;height: 32rpx;margin-left: -20rpx;margin-top: 40rpx;" src="/images/vip/app_img_vip_no_choose.png"></image>
+    
+      <image style="margin-left:50rpx;width: 60rpx;height: 60rpx;" class="" src="/images/vip/app_img_pay_icon_alipay.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+      <image style="width: 32rpx;height: 32rpx;margin-left: -20rpx;margin-top: 40rpx;" src="/images/vip/app_img_vip_no_choose.png"></image>
+      
+      <image style="margin-left: 60rpx;width: 60rpx;height: 60rpx;" class="" src="/images/vip/app_img_pay_icon_qqplay.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+      <image style="width: 32rpx;height: 32rpx;margin-left: -20rpx;margin-top: 40rpx;" src="/images/vip/app_img_vip_no_choose.png"></image>
+       
+
+</view>
+
+<view class="titles" style="margin-top: 50rpx;">
+    <view class="shuxian"></view>
+    <view class="wenzi">其他开通方式</view>
+</view>
+
+
+<view class="otherpay" style="display: flex;flex-direction: row;align-items: center;">
+ 
+
+    
+
+
+ <view  class="qq" style="display: flex;flex-direction: row;align-items: center;width: 350rpx;height: 140rpx;margin-left: 20rpx;">
+    <image src="/images/vip/11.png" style="margin-left: 20rpx;height: 90rpx;width:90rpx;"></image>
+<view style="margin-left:10rpx;">邀请好友领VIP</view>
+ </view>
+
+
+ <view  class="qq" style="display: flex;flex-direction: row;align-items: center;width: 350rpx;height: 140rpx;margin-left: 10rpx;">
+    <image src="/images/vip/22.png" style="margin-left: 20rpx;height: 90rpx;width:90rpx;"></image>
+<view style="margin-left: 10rpx;">签到领VIP</view>
+ </view>
+
+
+</view>
+</scroll-view>
+
+
+
+   <!-- 底部导航栏 -->
+   <view class="buttom">
+<view style="margin-left: 20rpx;">金额：</view>
+
+ <text style="color: #f8645f;margin-top: 10rpx;">￥</text>
+ <text style="font-size:35rpx;color: #f8645f;">45</text>
+ <text style="font-size: 18rpx;color: #f8645f;margin-top: 20rpx;">/3个月</text>
+ <text style="font-size: 18rpx;margin-top: 20rpx;margin-left: 10rpx;">54/3个月</text>
+ <!-- 删除线 -->
+ <view style="margin-left:-78rpx;margin-top: 20rpx;width: 40px;height: 1px;background: black;"></view>
+ <!-- 按钮 -->
+ <view class="hhh" >开通特权</view>
+
+
+   </view>

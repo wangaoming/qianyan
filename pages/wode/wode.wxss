@@ -151,7 +151,7 @@ page{
             align-items: center;
             justify-content: center;
             height: 30rpx;
-             margin-top: 10rpx;
+            margin-top: 10rpx;
             
         }
         .middle{

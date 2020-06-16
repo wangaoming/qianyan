@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/qianyan/qianyan",
+    "pages/vip/vip",
     "pages/setting/setting",
     "pages/infors/infors",
     "pages/addhanda/addhanda",

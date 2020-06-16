@@ -63,11 +63,11 @@
 <view style="font-weight: bold;font-size:28rpx;margin-top: 35rpx;">会员特权</view>
 <view  class="jj">
   <view style="font-size: 22rpx;color: #b89aff;margin-left: -10rpx;margin-bottom: 10rpx;">立刻体验</view>
-  <image src="/images/wode/arrow_icon.png" style="height: 15rpx;width:8rpx;margin-left:5rpx;margin-top: 2rpx;"></image>
+  <image src="/images/wode/arrow_icon.png" bindtap="vipHandle" style="height: 15rpx;width:8rpx;margin-left:5rpx;margin-top: 2rpx;"></image>
 </view>
 </view>
 
-  <image src="/images/wode/app_img_personal_vip_img.png" style="width: 70rpx;height: 60rpx;margin-left: 10rpx;"></image>
+  <image src="/images/wode/app_img_personal_vip_img.png" bindtap="vipHandle" style="width: 70rpx;height: 60rpx;margin-left: 10rpx;"></image>
 <!-- 竖线 -->
  <view style="width: 2rpx;height:100rpx;background-color: #eee;margin-left: 10rpx;"></view>
 </view>

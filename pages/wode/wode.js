@@ -136,6 +136,20 @@ wx.navigateTo({
   }
 })
   },
+  vipHandle(){
+     wx.navigateTo({
+       url: '../../pages/vip/vip',
+       success: function(res){
+         // success
+       },
+       fail: function() {
+         // fail
+       },
+       complete: function() {
+         // complete
+       }
+     })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

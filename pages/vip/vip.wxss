@@ -1,0 +1,180 @@
+/* pages/vip/vip.wxss */
+page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://s1.ax1x.com/2020/06/16/NilUKS.png');
+    background-repeat: no-repeat;
+    background-size: 100% 330rpx;
+   
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    align-items: center;
+    z-index: 999;
+    position: fixed;
+    background-image: url("https://s1.ax1x.com/2020/06/16/NilUKS.png");
+    background-size: 100% ;
+    background-position:1502px 150px ;
+    
+    width: 100%;
+    height:120rpx ;
+    
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+
+  margin-top: 40rpx;
+
+}
+.title text{
+    font-size: 28rpx;
+   margin-top: 0rpx;
+   font-weight: normal;
+   margin-bottom: 20rpx;
+   margin-left: 240rpx;
+}
+/*底部导航栏固定 */
+.buttom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    height: 100rpx;
+    width: 100%;
+    background: white;
+    border-top: 2rpx #eee soild;
+}
+.hhh {
+    color: white;
+    background:#b89aff;
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 220rpx;
+    font-size: 36rpx;
+    margin-left:170rpx;
+    border-radius: 10rpx;
+
+}
+.ss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10rpx;
+}
+
+.card{
+    width: 90%;
+    height: 270rpx;
+    margin-top:110rpx;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20rpx;
+    background-image: url('https://s1.ax1x.com/2020/06/16/NiNYn0.png');
+    background-repeat: no-repeat; 
+    background-size: 100% 100%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img1{
+    width: 92rpx;
+    height: 92rpx;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid pink;
+    
+    }
+.touxiang{
+        width:90rpx;
+        height: 90rpx;
+        border-radius: 50%;
+      }
+    
+.titles{
+    margin-left: 30rpx;
+    margin-top:20rpx ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.shuxian{
+    width: 6rpx;
+    height: 36rpx;
+    background-color:#b89aff ;
+}
+.wenzi{
+    margin-left: 20rpx;
+    text-align: center;
+    font-size: 28rpx;
+
+}
+.label,.label1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30rpx;
+}
+.l1{
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 340rpx;
+height:120rpx;
+border-right: 1px solid #eee;
+border-bottom: 1px solid #eee;
+/* background-color: wheat; */
+}
+.pp{
+    /* background-image: url('https://s1.ax1x.com/2020/06/16/NFrGVA.png'); */
+     background-repeat: no-repeat;
+     background-size: 250rpx 270rpx;
+     width: 245rpx;
+     height:280rpx;
+  
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 20rpx;
+    /* margin-left: 5rpx; */
+     
+}
+.gold{
+    width:190rpx ;
+    margin-left: 10rpx;
+    height: 75rpx;
+    border-radius: 14rpx;
+    background: blanchedalmond;
+}
+.pp:nth-child(1){
+    margin-left: 8rpx;
+}
+.qq{
+    border-radius: 14rpx;
+    background-image: url('https://s1.ax1x.com/2020/06/16/NkUMV0.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 30rpx;
+    font-size: 30rpx;
+
+   
+}
