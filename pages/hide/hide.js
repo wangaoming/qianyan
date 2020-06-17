@@ -1,25 +1,43 @@
-// pages/setting/setting.js
+// pages/hide/hide.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    tubiao:'/images/hide/app_img_switch_unselect.png',
+    list:[{
+      'id':'0',
+      'biaoshi':'/images/hide/app_img_follow.png',
+      'name':'我的关注'
+    },
+    {
+      'id':'2',
+      'biaoshi':'/images/hide/app_img_personal_collected.png',
+      'name':'我的收藏'
+    },
+    {
+      'id':'3',
+      'biaoshi':'/images/hide/app_img_personal_gift.png',
+      'name':'我的背包'
+    },
+    {
+      'id':'0',
+      'biaoshi':'/images/hide/app_img_personal_location_set.png',
+      'name':'天气定位'
+    },
+  
+  
+  
+  ]
 
   },
-hidehandle(){
- wx.navigateTo({
-   url: '../../pages/hide/hide',
-   success: function(res){
-     // success
-   },
-   fail: function() {
-     // fail
-   },
-   complete: function() {
-     // complete
-   }
- })
+change(e){
+var name = e.currentTarget.dataset.tubiao;
+console.log(name)
+this.setData({
+  tubiao:(name == '/images/hide/app_img_switch_unselect.png')?'/images/hide/app_img_switch_select.png':'/images/hide/app_img_switch_unselect.png'
+})
 },
   /**
    * 生命周期函数--监听页面加载

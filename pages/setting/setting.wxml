@@ -41,7 +41,7 @@
    <view class="oo">
     <image  class="hhh" src="/images/wode/app_img_set.png"></image>
 
-<view  class="ll" hover-class="none" hover-stop-propagation="false">
+<view  class="ll" hover-class="none" hover-stop-propagation="false" bindtap='hidehandle'>
     <view class="name">我的隐私</view>
     <view style="color: #9e9e9e;text-align: center;margin-left:462rpx;font-size: 22rpx;"></view>
     <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 16rpx;height: 30rpx; "/>
