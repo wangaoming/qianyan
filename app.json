@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/helpfeed/helpfeed",
     "pages/qianyan/qianyan",
     "pages/hide/hide",
     "pages/vip/vip",

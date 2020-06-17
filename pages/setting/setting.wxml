@@ -94,7 +94,7 @@
      </view>
      </view>
         <!-- 3 -->
-        <view class="oo">
+        <view class="oo" bindtap='helphandle'>
          <image  class="hhh" src="/images/wode/app_img_personal_help.png"></image>
      
      <view  class="ll" hover-class="none" hover-stop-propagation="false">
