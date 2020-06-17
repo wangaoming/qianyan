@@ -1,0 +1,123 @@
+
+
+
+page{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    z-index: 999;
+    top: 0;
+    margin-top:-40rpx;
+    position: fixed;
+    width: 100%;
+ 
+    
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+
+}
+.title text{
+    font-size: 28rpx;
+   margin-top: 0rpx;
+   font-weight: normal;
+   margin-bottom: 20rpx;
+   margin-left: 240rpx;
+}
+.ss{
+    
+    width: 100%;
+    height:3000rpx;
+    display: flex;
+    margin-top: 60rpx;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://s1.ax1x.com/2020/06/17/NE4lFK.png');
+    background-repeat: no-repeat;
+    background-size: 100% 2600rpx;
+
+}
+.save{
+    width: 60%;
+    height: 80rpx;
+}
+.pic1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10rpx;
+
+}
+.pic1 image,.pic2 image{
+    width: 150rpx;
+    height:130rpx;
+    margin-top: 40rpx;
+}
+.pic1 image:nth-child(2),.pic1 image:nth-child(3){
+    margin-left: 100rpx;
+}
+.pic2 image:nth-child(2),.pic2 image:nth-child(3){
+    margin-left: 110rpx;
+}
+.pic3 image{
+    width: 150rpx;
+    height:130rpx;
+    margin-top: 20rpx;
+    margin-bottom: 10rpx;
+}
+
+.pic4 image{
+    width: 150rpx;
+    height:130rpx;
+    margin-top:40rpx ;
+  
+}
+.pic5 image{
+    width: 150rpx;
+    height:130rpx;
+    margin-top:20rpx ;
+  
+}
+.pic4 image:nth-child(2),.pic4 image:nth-child(3),.pic4 image:nth-child(4){
+    margin-left: 40rpx;
+}
+.kuang,.kuang1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 680rpx;
+    height:120rpx;
+    border-radius: 14rpx;
+    margin-top: 20rpx;
+    
+}
+.kuang:nth-child(3){
+    background-color: #ffefed;
+}
+.kuang:nth-child(4){
+    
+    background-color: #fff7de;
+}
+
+.kuang:nth-child(5){
+    background-color: #ffe8ee;
+}
+
+.shu{
+    display: flex;
+    flex-direction: column;
+   
+    margin-left: 20rpx;
+    width:360rpx;
+   
+}

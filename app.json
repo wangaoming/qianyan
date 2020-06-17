@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/legal/legal",
     "pages/qianyan/qianyan",
     "pages/helpfeed/helpfeed",
     "pages/feedback/feedback",
