@@ -8,7 +8,7 @@
       </text>
    </view> 
    <view style="display: flex;flex-direction: column;">
-    <view class="oo" style="border-bottom: none;">
+    <view class="oo" style="border-bottom: none;" bindtap='feedbackhandle'>
         <image  class="hhh" src="/images/hide/app_img_personal_feedback.png"></image>
     
     <view  class="ll" hover-class="none" hover-stop-propagation="false">

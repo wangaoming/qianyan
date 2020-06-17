@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/helpfeed/helpfeed",
     "pages/qianyan/qianyan",
+    "pages/helpfeed/helpfeed",
+    "pages/feedback/feedback",
     "pages/hide/hide",
     "pages/vip/vip",
     "pages/setting/setting",

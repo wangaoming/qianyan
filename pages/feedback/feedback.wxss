@@ -30,33 +30,14 @@ page{
    margin-left: 280rpx;
 }
 
-.ll{
-    display: flex;
-    height: 100rpx;
-    flex-direction: row;
-    align-items: center;
-    
-    
-}
-.ll:nth-child(1){
-    
-}
-.name{
-    margin-left:30rpx ;
-}
-.hh{
-    margin-left: 470rpx;
-}
+
 .oo{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
+    margin-top: 30rpx;
+    margin-left: 30rpx;
     
-    border-bottom: 1px solid #eee;
-}
-.hhh{
-    width: 40rpx;
-    height: 40rpx;
-    margin-left: 40rpx;
+   
 }
