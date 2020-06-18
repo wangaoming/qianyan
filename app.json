@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/legal/legal",
+    "pages/account/account",
     "pages/qianyan/qianyan",
+    "pages/legal/legal",
     "pages/helpfeed/helpfeed",
     "pages/feedback/feedback",
     "pages/hide/hide",

@@ -39,7 +39,6 @@ Page({
   change(e){
 var name = e.currentTarget.dataset.beijing;
 console.log(name)
-
 this.setData({
   'list[0].beijing':(name == 'https://s1.ax1x.com/2020/06/16/NFrY5t.png')?'https://s1.ax1x.com/2020/06/16/Nk4sW4.png':'https://s1.ax1x.com/2020/06/16/NFrY5t.png',
   'list[1].beijing':(name == 'https://s1.ax1x.com/2020/06/16/NFrJUI.png')?'https://s1.ax1x.com/2020/06/16/Nk4gyR.png':'https://s1.ax1x.com/2020/06/16/NFrJUI.png',
@@ -51,7 +50,20 @@ this.setData({
 
 
   },
-
+  ledalhandle(){
+wx.navigateTo({
+  url: '../../pages/legal/legal',
+  success: function(res){
+    // success
+  },
+  fail: function() {
+    // fail
+  },
+  complete: function() {
+    // complete
+  }
+})
+  },
 
   /**
    * 生命周期函数--监听页面加载

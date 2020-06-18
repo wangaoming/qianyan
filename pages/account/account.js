@@ -1,37 +1,27 @@
-// pages/legal/legal.js
+// pages/account/account.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    list:[
-        { 'bgc':'#ffefed',
-          'img':'/images/ledal/app_img_vip_icon_vip_commodity.png',
-          'text1':'VIP会员专属商品',
-          'text2':'专属信纸皮肤主题任意装扮'
-        },
-        { 'bgc':'',
-        'img':'/images/ledal/app_img_vip_icon_suipian.png',
-        'text1':'碎片变现',
-        'text2':'背包碎片轻松变现'
-      },
-
-      { 'bgc':'',
-      'img':'/images/ledal/app_img_vip_icon_shangcheng.png',
-      'text1':'商城特惠',
-      'text2':'杂货铺一年预计可省999元'
-    },
-
-
-    
-
-    ],
-    
-
-
-
+    navbar:['浅币','糖豆'],
+    currentTab:0,
   },
+  //导航栏
+navbarTap(e){
+  this.setData({
+    currentTab: e.currentTarget.dataset.idx
+  })
+},
+
+// 滑动事件
+swiperChange: function (e) {
+  this.setData({
+    currentTab: e.detail.current
+  })
+
+},
 
   /**
    * 生命周期函数--监听页面加载

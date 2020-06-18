@@ -41,7 +41,7 @@
 <view class="titles">
     <view class="shuxian"></view>
     <view class="wenzi">会员尊享16大特权</view>
-    <view class="" style="font-size: 20rpx;margin-left: 325rpx;">全部权益</view>
+    <view class="" style="font-size: 20rpx;margin-left: 325rpx;" bindtap="ledalhandle">全部权益</view>
     <image class="hh" src="/images/qiandao/arrow_icon.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""  style=" width: 13rpx;height: 16rpx;margin-left:10rpx; "/>
 </view>
 <view class="label">

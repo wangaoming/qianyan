@@ -1,0 +1,27 @@
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+        我的账户
+      </text>
+   </view>
+    <!-- 导航条 -->
+  <view class="navbar">
+    <text wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</text>
+</view>
+
+
+<!-- 内容 -->
+<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:700px;">
+   <!-- 浅币 -->
+     <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+         <scroll-view ><qianbi></qianbi></scroll-view>
+     </view></swiper-item> 
+     <!-- 糖豆-->
+     <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+         <scroll-view ><tangdou></tangdou></scroll-view>
+     </view></swiper-item> 
+   
+ </swiper>
+ 
+ 

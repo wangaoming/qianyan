@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "qianbi":"/components/qianbi/qianbi",
+    "tangdou":"/components/tangdou/tangdou"
+
+  }
+}
