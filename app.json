@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/account/account",
+    "pages/shetuan/shetuan",
     "pages/qianyan/qianyan",
+    "pages/account/account",
     "pages/legal/legal",
     "pages/helpfeed/helpfeed",
     "pages/feedback/feedback",
@@ -11,7 +12,6 @@
     "pages/infors/infors",
     "pages/addhanda/addhanda",
     "pages/chooseaccs/chooseaccs",
-    "pages/shetuan/shetuan",
     "pages/write/write",
     "pages/xiaoxi/xiaoxi",
     "pages/wode/wode",

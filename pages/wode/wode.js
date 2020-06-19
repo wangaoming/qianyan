@@ -150,6 +150,15 @@ wx.navigateTo({
        }
      })
   },
+  imghandle(e){
+   var img = e.currentTarget.dataset.img;
+   console.log(img)
+   if(img == '/images/wode/2.png'){
+     wx.navigateTo({
+       url: '../../pages/account/account',
+     })
+   }
+  },
   /**
    * 生命周期函数--监听页面加载
    */

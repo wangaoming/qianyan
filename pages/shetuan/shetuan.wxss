@@ -1,1 +1,30 @@
-/* pages/shetuan/shetuan.wxss */
+.page{
+    display: flex;
+    padding: 0 30rpx;
+    flex-direction: column;
+}
+.one{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.img{
+   display: flex;
+   flex-flow: wrap;
+   margin-top: 10rpx;
+}
+.item,.item1{
+    display: flex;
+    width:105px;
+
+    border-radius: 14rpx;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+}
+.item:nth-child(1),.item:nth-child(4){
+margin-left: 0;
+}
