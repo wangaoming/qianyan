@@ -94,7 +94,7 @@
       </view></swiper-item> 
       <!-- 文集-->
       <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
-          <scroll-view >呼呼</scroll-view>
+          <scroll-view ><anthology></anthology></scroll-view>
       </view></swiper-item> 
 <!-- 话题 -->
       <swiper-item class="" item-id="">

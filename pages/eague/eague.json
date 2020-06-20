@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "goodthing":"/components/goodthing/goodthing"
+    "goodthing":"/components/goodthing/goodthing",
+    "anthology":"/components/anthology/anthology"
   }
 }
