@@ -1,5 +1,5 @@
 {
   "usingComponents": {"tabbar": "../../tabbarComponent/tabbar",
   "zuixin":"/components/zuixin/zuixin",
-"qiandao":"/components/qiandaoyouli/qiandaoyouli"}
-}
+   "qiandao":"/components/qiandaoyouli/qiandaoyouli"}
+}    

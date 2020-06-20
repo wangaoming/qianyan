@@ -1,0 +1,107 @@
+/* pages/eague/eague.wxss */
+page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('https://s1.ax1x.com/2020/06/19/NuG49P.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    margin-top: -40rpx;
+    background: white;
+    height:120rpx ;
+    border-bottom: 1px soild #eee;
+    
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 50rpx;
+  height:50rpx;
+  margin-top: 40rpx;
+
+}
+.title text{
+    font-size: 28rpx;
+   margin-top: 0rpx;
+   font-weight: normal;
+   margin-bottom: 20rpx;
+   margin-left: 20rpx;
+}
+.top-up{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -50rpx;
+    margin-left: 50rpx;
+}
+.top-down{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15rpx;
+    margin-left: 20rpx;
+    margin-top: 20rpx;
+    align-items: center;
+}
+.love{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22rpx;
+    color: #b99bff;
+}
+/*导航栏*/
+.navbar{
+    /* flex: none; */
+    display: flex;
+    align-items: center;
+    background: #fff;
+    height: 60rpx;
+    
+    
+  
+  }
+.navbar .item{
+    position: relative;
+    color: #888888;
+    text-align: center;
+    line-height: 60rpx;
+    font-size: 28rpx;
+     width: 60rpx;
+    
+    
+    
+  }
+  .item:nth-child(1){
+    margin-left: 30rpx;
+  }
+  .item:nth-child(2){
+    margin-left: 40rpx;
+  }.item:nth-child(3){
+    margin-left: 40rpx;
+  }.item:nth-child(4){
+    margin-left: 40rpx;
+  }.item:nth-child(5){
+    margin-left: 40rpx;
+  }
+  .navbar .item.active{
+    color: #b99bff;
+    
+  }
+  .navbar .item.active:after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4rpx;
+    background:linear-gradient(to right,pink,#a02bc2)
+  }

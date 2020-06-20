@@ -1,0 +1,42 @@
+
+<image class="bg" src="/images/good/app_img_society_img_bg.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+</image>
+<view class="bg-two">
+<view class="left" style="margin-left: 130rpx;margin-top: -70rpx;">
+    <image class="" style="width:70rpx;height: 70rpx;" src="/images/good/app_img_society_icon_hot.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+      <view style="margin-top: -30rpx;font-size: 28rpx;" class="" hover-class="none" hover-stop-propagation="false">
+          2851
+      </view>
+</view>
+<view class="right"  >
+    <view class="" hover-class="none" hover-stop-propagation="false" style="font-size: 19rpx;margin-top: 15rpx;margin-left: 18rpx;">
+        社长精心挑选的好
+    </view>
+    
+        <view class="" hover-class="none" hover-stop-propagation="false" style="font-size: 19rpx;margin-left: 18rpx;">
+           物，快来看看哦~
+        </view>
+</view>
+</view>
+<view class="good">
+<view class="hhh" wx:for='{{list}}' hover-class="none" hover-stop-propagation="false">  
+<image class="" style="margin-left: 20rpx;margin-top: 20rpx;width: 300rpx;height: 300rpx;border-radius: 14rpx;" src="{{item.img}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+</image>
+
+<view style="margin-bottom: 60rpx;margin-top: 30rpx;margin-left: 20rpx;;font-size: 22rpx;" class="" hover-class="none" hover-stop-propagation="false">
+    {{item.text}}
+</view>
+</view>
+
+
+</view>
+
+  
+<view style="margin-top: 100px;margin-left: 100px;" class="" hover-class="none" hover-stop-propagation="false">
+    主人，我也是有底线的~
+</view>
+
+
+

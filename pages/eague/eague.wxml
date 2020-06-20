@@ -1,0 +1,122 @@
+<!-- 具体 -->
+<view class="title">
+      <text class="">
+         崽崽的宝贝社
+      </text>
+
+      <image style="margin-left: 390rpx;" class="" src="/images/shetuan/app_img_society_icon_chatroom.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+       <image style="margin-left: 40rpx;" class="" src="/images/shetuan/app_img_society_icon_share.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+       </image> 
+   </view> 
+
+   <!-- 滑动1 -->
+   <scroll-view class="ss1"  style="height:1535rpx;position: fixed;" class="" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+       scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+       bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+       <view class="top-title" style="margin-top: 50rpx;display: flex;flex-direction: row;align-items: center;height: 120rpx;width: 100%;margin-bottom: 40rpx;align-items: center;">
+<view style="margin-left: 20rpx;">崽崽的宝贝社</view>
+<image style="margin-left: 470rpx;width: 40rpx;height: 40rpx;" src="/images/shetuan/app_img_society_icon_type.png"></image> </view>
+<view class="top-up" hover-class="none" hover-stop-propagation="false">
+    <!-- 图片 -->
+    <view class="" style="align-items: center;display: inline-block;background-color: powderblue;height:120rpx;width:120rpx;border-radius: 14rpx;border-color:  #b99bff;border-style: solid;;border-width: 1px;" hover-class="none" hover-stop-propagation="false">
+        <image   style="width: 120rpx;height: 120rpx;border-radius: 14rpx;" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1420084952,1075493402&fm=26&gp=0.jpg"></image>
+    </view>
+
+    <view class="" style="margin-top: -25rpx;margin-left: 100rpx;display: flex;flex-direction: column;align-items: center;" hover-class="none" hover-stop-propagation="false">
+        <image  style=width:80rpx;height:35rpx;" class="" src="/images/shetuan/app_img_socialgroup_club_sort_guide.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        </image>
+        <view style="font-size: 35rpx;">NO.42</view>
+        <view  style="margin-top: 5rpx;font-size: 22rpx;display: flex;flex-direction: row;align-items: center;">
+         <view style="margin-left: 20rpx;">社团榜</view>
+        <image style="margin-left: 10rpx;height: 18rpx;width: 10rpx;" src="/images/shetuan/app_img_socialgroup_icon_right.png"></image>
+        </view>
+    </view>
+
+    <view class="" style="margin-top: 10rpx;margin-left:80rpx;display: flex;flex-direction: column;align-items: center;" hover-class="none" hover-stop-propagation="false">
+    
+        <view style="font-size: 35rpx;">194/200</view>
+        <view  style="margin-left: -20rpx;margin-top: 5rpx;font-size: 22rpx;display: flex;flex-direction: row;align-items: center;">
+         <view>成员数</view>
+        </view>
+    </view>
+    
+</view>
+
+
+<view class="top-down">
+<image style="width: 200rpx;height: 65rpx;" src="/images/shetuan/app_img_socialgroup_btn_chat.png"></image>
+
+
+<view style="z-index:99;margin-left: 60rpx;border-radius: 50%;border-color:  #b99bff;border-style: solid;border-width: 1px;width: 50rpx;height: 50rpx;">
+<image class="" style="border-radius: 50%;width: 50rpx;height:50rpx;" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592558338110&di=15824edf5170ae9e9ae8763edb805965&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20180730%2F810f5e0155424a23b1eeefacd7f76df2.jpeg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+</image>
+</view>
+
+<view style="margin-left: -20rpx;border-radius: 50%;border-color:  #b99bff;border-style: solid;border-width: 1px;width: 50rpx;height: 50rpx;">
+    <image class="" style="border-radius: 50%;width: 50rpx;height:50rpx;" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592558338109&di=5eed2d1b2ecdb9656812a2d6f2b2f234&imgtype=0&src=http%3A%2F%2Ftupian.qqw21.com%2Farticle%2FUploadPic%2F2020-5%2F2020561604218663.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+    </image>
+    </view>
+
+    <view style="z-index: -99;;margin-left: -20rpx;border-radius: 50%;border-color:  #b99bff;border-style: solid;border-width: 1px;width: 50rpx;height: 50rpx;">
+        <image class="" style="border-radius: 50%;width: 50rpx;height:50rpx;" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592558338109&di=ee66103e8b60e3c80d221cd9a5c0f982&imgtype=0&src=http%3A%2F%2Fwx4.sinaimg.cn%2Forj360%2F00779Tthgy1gewcbcagltj30hs0hs79s.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        </image>
+        </view>
+        <view  style="margin-top: 5rpx;font-size: 22rpx;display: flex;flex-direction: row;align-items: center;">
+            <view style="margin-left: 20rpx;">社团榜</view>
+           <image style="margin-left: 10rpx;height: 18rpx;width: 10rpx;" src="/images/shetuan/app_img_socialgroup_icon_right.png"></image>
+           </view>
+
+           <image style="margin-left:30rpx ;width: 140rpx;height:65rpx;" src="/images/shetuan/app_img_socialgroup_btn_list.png"></image>
+</view>
+ 
+<view class="love" style="width: 100%;height: 60rpx;background: white;" hover-class="none" hover-stop-propagation="false">
+    <image src="/images/shetuan/love.png" style="margin-left: 30rpx;width: 30rpx;height:30rpx;"></image>
+    <view style="margin-left: 20rpx;" class="" hover-class="none" hover-stop-propagation="false">
+        温山软水万千
+    </view>
+    <view   style="margin-left: 20rpx;"class="" hover-class="none" hover-stop-propagation="false">
+        不及你
+    </view>
+    <view  style="margin-left: 20rpx;" class="" hover-class="none" hover-stop-propagation="false">
+        眉眼半分
+    </view>
+
+</view>
+<!-- 导航栏 -->
+<view class="navbar" style="margin-top: 10rpx;background: white;z-index: 999;" >
+    <view  wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
+    </view>
+    <!-- 内容 -->
+<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height: 1500px;">
+    <!-- 好物 -->
+      <swiper-item ><view hidden="{{currentTab!==0}}" class="hidden">
+          <scroll-view><goodthing></goodthing></scroll-view>
+      </view></swiper-item> 
+      <!-- 文集-->
+      <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+          <scroll-view >呼呼</scroll-view>
+      </view></swiper-item> 
+<!-- 话题 -->
+      <swiper-item class="" item-id="">
+        <view hidden="{{currentTab!==2}}" class="hidden">
+            <scroll-view >3333</scroll-view>
+        </view>
+      </swiper-item>
+      <!-- 周榜 -->
+      <swiper-item class="" item-id="">
+        <view hidden="{{currentTab!==3}}" class="hidden">
+            <scroll-view >4444</scroll-view>
+        </view>
+      </swiper-item>
+      <!-- 热门 -->
+      <swiper-item class="" item-id="">
+        <view hidden="{{currentTab!==4}}" class="hidden">
+            <scroll-view >55555</scroll-view>
+        </view>
+      </swiper-item>
+  </swiper>
+   </scroll-view>
+
+
+
+ 

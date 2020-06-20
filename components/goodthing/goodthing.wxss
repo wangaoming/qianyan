@@ -1,0 +1,49 @@
+/* components/goodthing/goodthing.wxss */
+.bg{
+    width: 100%;
+    height: 100rpx;
+    margin-top: 10rpx;
+}
+.bg-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bg-two.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.right{
+    height: 120rpx;
+    width:220rpx;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://s1.ax1x.com/2020/06/20/NlisTU.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 270rpx;
+    margin-top: -20rpx;
+}
+.good{
+   width: 92%;
+   margin-top: -50rpx;
+   margin-left: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+}
+.hhh{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8rpx;
+    background-color: white;
+    width: 340rpx;
+    margin-top: 15rpx;
+
+
+
+}

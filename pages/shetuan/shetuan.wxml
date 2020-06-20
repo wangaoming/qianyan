@@ -36,6 +36,6 @@
 </view>
 </view>
 
-<view class="buttom" style="margin-top: 110rpx;margin-left:80rpx;line-height: 40px;text-align: center;border-radius: 8rpx;width: 270px;height: 40px;background-color:#cccccc ;color: white;">立刻开启</view>
+<view class="buttom" style="margin-top: 110rpx;margin-left:80rpx;line-height: 40px;text-align: center;border-radius: 8rpx;width: 270px;height: 40px;background-color:#cccccc ;color: white;" bindtap="eaguehandle">立刻开启</view>
 
 </view>
