@@ -99,7 +99,7 @@
 <!-- 话题 -->
       <swiper-item class="" item-id="">
         <view hidden="{{currentTab!==2}}" class="hidden">
-            <scroll-view >3333</scroll-view>
+            <scroll-view ><topic></topic></scroll-view>
         </view>
       </swiper-item>
       <!-- 周榜 -->

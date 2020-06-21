@@ -1,0 +1,24 @@
+/* components/topic/topic.wxss */
+.top{
+    width: 100%;
+    height: 80rpx;
+    background-color: white;
+    margin-top: 5rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.topic{
+    width: 92%;
+    display: flex;
+   flex-direction: column;
+    margin-left: 30rpx;
+    border-bottom: #eee 1px solid;
+}
+
+.hhh{
+    width: 100%;
+    height: 100%;
+    margin-top: 5rpx;
+    background-color: white;
+}

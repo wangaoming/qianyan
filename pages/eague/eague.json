@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "goodthing":"/components/goodthing/goodthing",
-    "anthology":"/components/anthology/anthology"
+    "anthology":"/components/anthology/anthology",
+    "topic":"/components/topic/topic"
   }
 }

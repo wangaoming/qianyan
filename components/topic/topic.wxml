@@ -1,0 +1,86 @@
+<!--components/topic/topic.wxml-->
+<view class="top" hover-class="none" hover-stop-propagation="false">
+    <image src="/images/anthology/11.png" style="width: 50rpx;height:50rpx;margin-left: 30rpx;"></image>
+    <view style="margin-left: 20rpx; font-size:24rpx;color: #888;" class="" hover-class="none" hover-stop-propagation="false">
+    创建专属话题，带领大家一起玩~
+    </view>
+    </view>
+
+
+
+    <view class="hhh" hover-class="none" hover-stop-propagation="false">
+        <view class="topic" wx:for="{{list}}">
+    <!-- 标题 -->
+    <view style="margin-top: 15rpx;margin-bottom: 25rpx;display: flex;flex-direction: row;align-items: center;"  hover-class="none" hover-stop-propagation="false">
+        
+<view class="" style="width: 4rpx;height:30rpx;background-color: #b89aff;" hover-class="none" hover-stop-propagation="false">
+</view>
+
+<view class="" style="font-size: 28rpx;margin-left: 20rpx;"  hover-class="none" hover-stop-propagation="false">
+    {{item.topic}}
+</view>
+
+<view  style="margin-left: 430rpx;font-size: 20rpx;display: flex;flex-direction: row;align-items: center;">
+    <view style="margin-left: 20rpx;">查看更多</view>
+   <image style="margin-left: 10rpx;height: 18rpx;width: 10rpx;" src="/images/shetuan/app_img_socialgroup_icon_right.png"></image>
+   </view>
+
+    </view>
+    <!-- 具体内容 -->
+<view class="" style="display: flex;flex-direction: row;align-items: center;margin-bottom: 25rpx;" hover-class="none" hover-stop-propagation="false">
+   <image class="" style="width:75rpx;height: 75rpx;border-radius: 14rpx;border-color: #ddd;border-style: solid;" src="{{item.img}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+       
+   </image>
+
+   <view class="" style="display: flex;flex-direction: column;width: 500rpx;margin-left: 20rpx;" hover-class="none" hover-stop-propagation="false">
+         
+<view class="" hover-class="none" hover-stop-propagation="false" style="font-size: 28rpx;margin-bottom:25rpx;">
+{{item.title}}
+</view>
+
+<view class="" hover-class="none" hover-stop-propagation="false" style="display: flex;flex-direction: row;align-items: center;font-size: 19rpx;color: #c6c6c6;">
+    
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        {{item.liulan}}浏览
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 5rpx;">
+        |
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false"  style="margin-left: 5rpx;">
+        {{item.pinglun}}评论
+    </view>
+</view>
+
+   </view>
+<view class="" style="display: flex;flex-direction: column;align-items: center;" hover-class="none" hover-stop-propagation="false">
+    <view style="display: flex;flex-direction: row;align-items: center;margin-bottom: 10rpx;">
+    <view class="" hover-class="none" hover-stop-propagation="false" style="font-size: 16rpx;color: #b89aff;">
+        {{item.renshu}}
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false" style="font-size: 22rpx;color: #c6c6c6;;">
+        人参与
+    </view>
+    </view>
+
+<view class="" style="display: flex;flex-direction: row;line-height: 48rpx;align-items: center;background-color: #b89aff;border-radius: 8rpx;width: 130rpx;height:48rpx;text-align: center;color: white;font-size: 24rpx;" hover-class="none" hover-stop-propagation="false">
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 25rpx;">
+        +
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 5rpx;">
+        加入
+    </view>
+</view>
+
+    </view>
+</view>
+
+ 
+    </view>
+       
+
+
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-top: 350rpx;margin-left: 200rpx;">
+        主人，我也是有底线的~
+    </view>
+    
+    </view>

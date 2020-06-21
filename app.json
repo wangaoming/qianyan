@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/eague/eague",
     "pages/shetuan/shetuan",
     "pages/qianyan/qianyan",
+    "pages/eague/eague",
     "pages/account/account",
     "pages/legal/legal",
     "pages/helpfeed/helpfeed",
