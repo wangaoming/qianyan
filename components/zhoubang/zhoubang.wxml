@@ -1,0 +1,95 @@
+<!--components/zhoubang/zhoubang.wxml-->
+<view class="hhh">
+
+<view class="zhoubang">
+
+<view class="neirong" wx:for="{{list}}">
+<view class="img" style="background-image: url({{item.bg}});background-repeat: no-repeat;background-size: 100% 100%;width:167px;border-radius: 18rpx 18rpx 0 0;height:167px;">
+<view class="qq" hover-class="none" hover-stop-propagation="false">
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 35rpx;margin-top: 30rpx;font-size: 22rpx;">
+        {{item.name}}
+    </view>
+
+<view class="" style="margin-left: 35rpx;margin-top: 10rpx;margin-bottom:10rpx;font-size: 16rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+    <image class="" style=width:25rpx;height:20rpx;" src="/images/zhoubang/app_img_club_icon_ranking.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+<view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+    总榜：
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{item.number}}
+</view>
+</view>
+<!-- 第二 -->
+<view class="" style="margin-left: 35rpx;margin-bottom:10rpx;font-size: 16rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+    <image class="" style=width:25rpx;height:20rpx;" src="/images/zhoubang/app_img_club_icon_member.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+<view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+    成员：
+</view>
+<view class="" hover-class="none" hover-stop-propagation="false">
+    {{item.member}}
+</view>
+</view>
+</view>
+<image class="" src="/images/zhoubang/11.png" style="height: 40rpx;width: 40rpx;border-radius: 50%; margin-top: -240rpx;margin-left: -20rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+    
+</image>
+
+</view>
+<view class="" style="margin-top:15rpx;margin-bottom: 10rpx;margin-left: 25rpx;font-size: 26rpx;" hover-class="none" hover-stop-propagation="false">
+ {{item.title}} 
+</view>
+<view class="" style="margin-bottom: 10rpx;margin-left:25rpx;font-size: 18rpx;color: #d4c2ff;" hover-class="none" hover-stop-propagation="false">
+    {{item.text}}
+</view>
+</view>
+
+<view class="neirong" wx:for="{{list}}">
+    <view class="img" style="background-image: url({{item.bg}});background-repeat: no-repeat;background-size: 100% 100%;width:167px;border-radius: 18rpx 18rpx 0 0;height:167px;">
+    <view class="qq" hover-class="none" hover-stop-propagation="false">
+        <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 35rpx;margin-top: 30rpx;font-size: 22rpx;">
+            {{item.name}}
+        </view>
+    
+    <view class="" style="margin-left: 35rpx;margin-top: 10rpx;margin-bottom:10rpx;font-size: 16rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+        <image class="" style=width:25rpx;height:20rpx;" src="/images/zhoubang/app_img_club_icon_ranking.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            
+        </image>
+    <view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+        总榜：
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        {{item.number}}
+    </view>
+    </view>
+    <!-- 第二 -->
+    <view class="" style="margin-left: 35rpx;margin-bottom:10rpx;font-size: 16rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+        <image class="" style=width:25rpx;height:20rpx;" src="/images/zhoubang/app_img_club_icon_member.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            
+        </image>
+    <view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+        成员：
+    </view>
+    <view class="" hover-class="none" hover-stop-propagation="false">
+        {{item.member}}
+    </view>
+    </view>
+    </view>
+    <image class="" src="/images/zhoubang/11.png" style="height: 40rpx;width: 40rpx;border-radius: 50%; margin-top: -240rpx;margin-left: -20rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+        
+    </image>
+    
+    </view>
+    <view class="" style="margin-top:15rpx;margin-bottom: 10rpx;margin-left: 25rpx;font-size: 26rpx;" hover-class="none" hover-stop-propagation="false">
+     {{item.title}} 
+    </view>
+    <view class="" style="margin-bottom: 10rpx;margin-left:25rpx;font-size: 18rpx;color: #d4c2ff;" hover-class="none" hover-stop-propagation="false">
+        {{item.text}}
+    </view>
+    </view>
+
+</view>
+</view>

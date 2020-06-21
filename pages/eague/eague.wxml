@@ -87,7 +87,7 @@
     <view  wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
     </view>
     <!-- 内容 -->
-<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height: 1500px;">
+<swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height: 2000px;">
     <!-- 好物 -->
       <swiper-item ><view hidden="{{currentTab!==0}}" class="hidden">
           <scroll-view><goodthing></goodthing></scroll-view>
@@ -105,7 +105,7 @@
       <!-- 周榜 -->
       <swiper-item class="" item-id="">
         <view hidden="{{currentTab!==3}}" class="hidden">
-            <scroll-view >4444</scroll-view>
+            <scroll-view ><zhoubang></zhoubang></scroll-view>
         </view>
       </swiper-item>
       <!-- 热门 -->

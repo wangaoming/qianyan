@@ -45,7 +45,7 @@ Component({
 }
 ,
 
-{'topic':'学霸党',
+{'topic':'学霸党 ',
 'img':'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=204268622,4042276298&fm=26&gp=0.jpg',
 'title':'有要交笔友的嘛',
 'liulan':'1349838',

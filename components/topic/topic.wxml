@@ -16,7 +16,7 @@
 <view class="" style="width: 4rpx;height:30rpx;background-color: #b89aff;" hover-class="none" hover-stop-propagation="false">
 </view>
 
-<view class="" style="font-size: 28rpx;margin-left: 20rpx;"  hover-class="none" hover-stop-propagation="false">
+<view class="" style="font-size: 28rpx;margin-left: 20rpx;width: 115rpx;"  hover-class="none" hover-stop-propagation="false">
     {{item.topic}}
 </view>
 
@@ -43,7 +43,7 @@
     <view class="" hover-class="none" hover-stop-propagation="false">
         {{item.liulan}}浏览
     </view>
-    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 5rpx;">
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 8rpx;">
         |
     </view>
     <view class="" hover-class="none" hover-stop-propagation="false"  style="margin-left: 5rpx;">
@@ -63,7 +63,7 @@
     </view>
 
 <view class="" style="display: flex;flex-direction: row;line-height: 48rpx;align-items: center;background-color: #b89aff;border-radius: 8rpx;width: 130rpx;height:48rpx;text-align: center;color: white;font-size: 24rpx;" hover-class="none" hover-stop-propagation="false">
-    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 25rpx;">
+    <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 30rpx;">
         +
     </view>
     <view class="" hover-class="none" hover-stop-propagation="false" style="margin-left: 5rpx;">

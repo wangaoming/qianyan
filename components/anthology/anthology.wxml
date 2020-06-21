@@ -12,8 +12,19 @@
 <view class="hhh" hover-class="none" hover-stop-propagation="false">
     <view class="book">
 <view class="item" wx:for='{{book}}'>
-    <image  style="width:112px;height: 160px;border-radius: 14rpx;" src="{{item.img}}"></image>
-
+    <view  style="display: flex;flex-direction: row;align-items: center;width:112px;height: 160px;border-radius: 14rpx;background-image: url({{item.img}});background-repeat: no-repeat;background-size: 100% 100%;">
+    <view class="" style="margin-top: 260rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+         <image class="" style="width: 30rpx;height: 30rpx;margin-left: 20rpx;" src="/images/anthology/app_img_liked.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+     </image>
+     <view class="" hover-class="none" hover-stop-propagation="false" style="font-size: 20rpx;color: #b89aff;margin-left: 10rpx;">
+         {{item.times}}
+     </view>
+    </view>
+    
+    
+       
+    </view>
+     
     <view class="" style="margin-top: 15rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
     <view class="" style="width:55rpx;border-radius: 4rpx;height: 30rpx;text-align: center;color: white;font-size: 20rpx;background-color: #ffa3c9;" hover-class="none" hover-stop-propagation="false">
     更新

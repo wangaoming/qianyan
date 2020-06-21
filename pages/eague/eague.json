@@ -2,6 +2,7 @@
   "usingComponents": {
     "goodthing":"/components/goodthing/goodthing",
     "anthology":"/components/anthology/anthology",
-    "topic":"/components/topic/topic"
+    "topic":"/components/topic/topic",
+    "zhoubang":"/components/zhoubang/zhoubang"
   }
 }
