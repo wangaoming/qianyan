@@ -45,6 +45,28 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    goodhandle(e){
+      var img = e.currentTarget.dataset.img
+      console.log(img)
+      if(img == 'https://s1.ax1x.com/2020/06/20/Nl2xMV.jpg'){
+        
+        wx.navigateTo({
+          url: '../../pages/gooddetail/gooddetail',
+          success: function(res){
+            // success
+          },
+          fail: function() {
+       
+
+            // fail
+          },
+          complete: function() {
+            // complete
+          }
+        })
+      }
+
+    }
 
   }
 })

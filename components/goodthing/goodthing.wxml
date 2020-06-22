@@ -22,7 +22,7 @@
 </view>
 <view class="good">
 <view class="hhh" wx:for='{{list}}' hover-class="none" hover-stop-propagation="false">  
-<image class="" style="margin-left: 20rpx;margin-top: 20rpx;width: 300rpx;height: 300rpx;border-radius: 14rpx;" src="{{item.img}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+<image class="" bindtap="goodhandle" data-img="{{item.img}}" style="margin-left: 20rpx;margin-top: 20rpx;width: 300rpx;height: 300rpx;border-radius: 14rpx;" src="{{item.img}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
 </image>
 
 <view style="margin-bottom: 60rpx;margin-top: 30rpx;margin-left: 20rpx;;font-size: 22rpx;" class="" hover-class="none" hover-stop-propagation="false">
