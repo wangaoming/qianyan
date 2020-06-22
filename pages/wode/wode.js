@@ -62,17 +62,22 @@ Page({
       'text':'文集'
     },
     {
+      'img':'/images/wode/21.png',
+      'text':'手帐'
+    },
+    {
       'img':'/images/wode/10.png',
       'text':'星座解谜'
     },{
       'img':'/images/wode/11.png',
       'text':'PK赛'
-    },{
-      'img':'/images/wode/12.png',
-      'text':'同城'
-    }
+    },
   ],
   serlist4:[
+    {
+      'img':'/images/wode/12.png',
+      'text':'南京同城'
+    },
     {
       'img':'/images/wode/13.png',
       'text':'时光说'
@@ -83,20 +88,18 @@ Page({
     },{
       'img':'/images/wode/15.png',
       'text':'周榜'
-    },{
-      'img':'/images/wode/16.png',
-      'text':'杂货铺'
     }
   ],
   serlist5:[
     {
+      'img':'/images/wode/16.png',
+      'text':'杂货铺'
+    },
+    {
       'img':'/images/wode/17.png',
       'text':'浅言主题曲'
     },
-    {
-      'img':'/images/wode/18.png',
-      'text':'互动小说'
-    },{
+  {
       'img':'/images/wode/19.png',
       'text':'有料看看'
     },{
@@ -159,6 +162,15 @@ wx.navigateTo({
      })
    }
   },
+  imghandle1(e){
+    var img = e.currentTarget.dataset.img;
+    console.log(img)
+    if(img == '/images/wode/5.png'){
+      wx.navigateTo({
+        url: '../../pages/focus/focus',
+      })
+    }
+   },
   /**
    * 生命周期函数--监听页面加载
    */

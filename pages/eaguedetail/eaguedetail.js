@@ -1,4 +1,4 @@
-// pages/eague/eague.js
+// pages/eaguedetail/eaguedetail.js
 Page({
 
   /**
@@ -6,44 +6,15 @@ Page({
    */
   data: {
 
-    navbar:['好物','文集','话题','周榜','热门'],
-    currentTab:0
   },
-  //导航栏
-navbarTap(e){
-  this.setData({
-    currentTab: e.currentTarget.dataset.idx
-  })
-},
 
-// 滑动事件
-swiperChange: function (e) {
-  this.setData({
-    currentTab: e.detail.current
-  })
-
-},
-eaguehandle(){
-wx.navigateTo({
-  url: '../../pages/eaguedetail/eaguedetail',
-  success: function(res){
-    // success
-  },
-  fail: function() {
-    // fail
-  },
-  complete: function() {
-    // complete
-  }
-})
-},
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
-  }
-,
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

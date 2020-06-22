@@ -1,0 +1,19 @@
+<!--pages/eaguedetail/eaguedetail.wxml-->
+<!-- 顶部导航栏 -->
+<view class="title">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+
+      <text class="">
+          社团资料
+      </text>
+
+      <text class="save" style="margin-top: 0px;" bindtap="save">举报</text>
+</view>
+<scroll-view class="ss" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+    scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+    bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+    
+
+    
+</scroll-view>
+  

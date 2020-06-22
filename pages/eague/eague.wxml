@@ -19,7 +19,7 @@
 <view class="top-up" hover-class="none" hover-stop-propagation="false">
     <!-- 图片 -->
     <view class="" style="align-items: center;display: inline-block;background-color: powderblue;height:120rpx;width:120rpx;border-radius: 14rpx;border-color:  #b99bff;border-style: solid;;border-width: 1px;" hover-class="none" hover-stop-propagation="false">
-        <image   style="width: 120rpx;height: 120rpx;border-radius: 14rpx;" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1420084952,1075493402&fm=26&gp=0.jpg"></image>
+        <image   style="width: 120rpx;height: 120rpx;border-radius: 14rpx;" bindtap="eaguehandle" src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1420084952,1075493402&fm=26&gp=0.jpg"></image>
     </view>
 
     <view class="" style="margin-top: -25rpx;margin-left: 100rpx;display: flex;flex-direction: column;align-items: center;" hover-class="none" hover-stop-propagation="false">

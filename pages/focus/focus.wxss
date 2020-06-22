@@ -1,0 +1,62 @@
+
+
+.page{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -4rpx;
+    
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+  margin-left: 20rpx;
+}
+
+.hhh{
+  /* 顶部导航栏固定 */
+  position:fixed; 
+  z-index: 999;
+  width: 100%;
+  background: white;
+  top:0;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  margin-left: 250rpx;
+
+
+}
+.navbar .item{
+  position: relative;
+  text-align: center;
+  line-height:80rpx;
+  color: #888;
+  font-size: 24rpx;
+  
+  
+}
+.navbar .item:nth-child(2){
+  margin-left: 130rpx;
+}
+.navbar .item.active{
+  color: black;
+  font-size: 30rpx;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background:linear-gradient(to right,pink,#a02bc2)
+}

@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/gooddetail/gooddetail",
+    "pages/focus/focus",
+    "pages/wode/wode",
+    "pages/eaguedetail/eaguedetail",
     "pages/shetuan/shetuan",
+    "pages/gooddetail/gooddetail",
     "pages/qianyan/qianyan",
     "pages/eague/eague",
     "pages/account/account",
@@ -16,7 +19,6 @@
     "pages/chooseaccs/chooseaccs",
     "pages/write/write",
     "pages/xiaoxi/xiaoxi",
-    "pages/wode/wode",
     "pages/siginrules/siginrules"
     
     

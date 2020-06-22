@@ -1,0 +1,37 @@
+.title{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    margin-top: -4rpx;
+    position: fixed;
+    background-color: white;
+    z-index: 999;
+}
+.title image{
+  margin-bottom: 20rpx;
+  width: 40rpx;
+  height:40rpx;
+  margin-left: 30rpx;
+  margin-left: 20rpx;
+}
+.title text{
+    font-size: 28rpx;
+   margin-top: -40rpx;
+   font-weight: normal;
+   margin-bottom: 20rpx;
+   margin-left: 250rpx;
+}
+
+.save{
+
+    font-size: 25rpx;
+    margin-left: 250rpx;
+}
+.ss{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 1000rpx;
+}

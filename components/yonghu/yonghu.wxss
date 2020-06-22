@@ -1,0 +1,35 @@
+/* components/yonghu/yonghu.wxss */
+.yonghu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20rpx;
+    margin-left:40rpx ;
+    margin-bottom: 5rpx;
+}
+.img1{
+    width: 82rpx;
+    height: 82rpx;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    
+    }
+.touxiang{
+        width:80rpx;
+        height:80rpx;
+        border-radius: 50%;
+      }
+.biaoshi{
+        width:46rpx;
+        height:20rpx;
+        font-size: 16rpx;
+        text-align: center;
+        color: white;
+        line-height: 20rpx;
+        border-radius: 20rpx;
+        background-color: #ff9cc6;
+        border: 2px solid white;
+       margin-top: 62rpx;
+       margin-left: -64rpx;
+      }
