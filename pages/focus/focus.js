@@ -6,7 +6,7 @@ Page({
    */
   data: {
 
-    navbar:['用户','话题'],
+    navbar:['用户（12）','话题（8）'],
     currentTab:0
   },
   // /导航栏

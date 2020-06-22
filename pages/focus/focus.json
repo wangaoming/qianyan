@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "yonghu":"/components/yonghu/yonghu"
+    "yonghu":"/components/yonghu/yonghu",
+    "topic":"/components/huati/huati"
   }
 }

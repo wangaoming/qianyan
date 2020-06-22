@@ -28,6 +28,6 @@
      </view></swiper-item> 
      <!-- 话题-->
      <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
-         <scroll-view ><zuixin></zuixin></scroll-view>
+         <scroll-view ><topic></topic></scroll-view>
      </view></swiper-item> 
  </swiper>
