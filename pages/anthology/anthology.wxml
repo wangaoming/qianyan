@@ -1,0 +1,6 @@
+<!--pages/anthology/anthology.wxml-->
+<view class="top">
+    <image src="/images/qiandao/返回箭头.png"></image>
+    <text class="t1">全部文集</text>
+    <text class="t2" bindtap="rulesHandle">我的文集</text>
+  </view>

@@ -171,6 +171,25 @@ wx.navigateTo({
       })
     }
    },
+   imghandle2(e){
+    var img = e.currentTarget.dataset.img;
+    console.log(img)
+    if(img == '/images/wode/16.png'){
+      wx.navigateTo({
+        url: '../../pages/grocery/grocery',
+      })
+    }
+   },
+   imghandle3(e){
+    var img = e.currentTarget.dataset.img;
+    console.log(img)
+    if(img == '/images/wode/9.png'){
+      wx.navigateTo({
+        url: '../../pages/anthology/anthology',
+      })
+    }
+
+   },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -1,0 +1,27 @@
+/* components/11/11.wxss */
+.book{
+    width: 93%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30rpx;
+}
+.item{
+    width: 112px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rpx;
+}
+.hhh{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.swiper{
+    margin-top: 8rpx;
+    width: 91%;
+    margin-left: 33rpx;
+
+}
+
+

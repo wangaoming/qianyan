@@ -2,6 +2,6 @@
   "component": true,
   "usingComponents": {
 
-    "all":"/components/all/all"
+    "all": "/components/all/all"
   }
 }
