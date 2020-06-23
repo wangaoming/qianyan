@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/grocery/grocery",
+    "pages/shetuan/shetuan",
     "pages/focus/focus",
     "pages/wode/wode",
     "pages/eaguedetail/eaguedetail",
-    "pages/shetuan/shetuan",
     "pages/gooddetail/gooddetail",
     "pages/qianyan/qianyan",
     "pages/eague/eague",

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "zhuti":"/components/zhuti/zhuti"
+  }
+}

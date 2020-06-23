@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "haowu":"/components/haowu/haowu",
+    "dressup":"/components/dressup/dressup"
+  }
+}

@@ -1,0 +1,28 @@
+<!--components/dressup/dressup.wxml-->
+<view class="search">
+    <view class="input-wrapper">
+      <image src="/images/qiandao/app_img_search.png" class="searchImg" style="width: 30rpx;height: 30rpx;"></image>
+      <input placeholder="请输入想要搜索的商品关键词" class="input" adjust-position style="font-size: 20rpx;width: 270rpx;" ></input>
+    </view>
+  </view>
+ <!-- 导航栏 -->
+ 
+     <view class="navbar" style="margin-top: 10rpx;background: white;z-index: 999;" >
+      <view  wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
+      </view> 
+
+      <!-- neirong -->
+<swiper  class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+    <!-- 主题 -->
+     <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+         <scroll-view ><zhuti></zhuti></scroll-view>
+     </view></swiper-item> 
+     <!-- 皮肤-->
+     <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+         <scroll-view ><zhuti></zhuti></scroll-view>
+     </view></swiper-item> 
+   <!--聊天背景 --> 
+   
+    <swiper-item><view hidden="{{currentTab!==2}}" class="hidden"> <scroll-view >
+      <all></all></scroll-view></view></swiper-item> 
+  </swiper>

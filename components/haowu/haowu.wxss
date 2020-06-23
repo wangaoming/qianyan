@@ -1,0 +1,84 @@
+/* 搜索栏 */
+.search {
+    display: flex;
+    background: #fff;
+    width: 91%;
+    margin-left: 30rpx;
+    margin-top:15rpx;
+    border-radius: 20rpx;
+    border:1px solid 	#D3D3D3;
+  }
+  
+  .search .input-wrapper {
+    width: 100%;
+    display: flex;
+    margin-left: 40rpx;
+    align-items: center;
+   
+  
+  }
+  .swiper{
+      margin-top: 8rpx;
+      width: 91%;
+      margin-left: 33rpx;
+
+  }
+  /*导航栏*/
+.navbar{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 450px;
+}
+.navbar .item{
+  position: relative;
+  color: #888888;
+  text-align: center;
+  line-height: 55rpx;
+  font-size: 24rpx;
+  width: 45px;
+  border-radius: 8rpx;
+   background-color: #eee;
+  
+  
+  
+}
+.item:nth-child(1){
+  margin-left: 30rpx;
+}
+.item:nth-child(2){
+  margin-left: 20rpx;
+}.item:nth-child(3){
+  margin-left: 20rpx;
+}.item:nth-child(4){
+  margin-left: 20rpx;
+}.item:nth-child(5){
+  margin-left: 20rpx;
+}
+.item:nth-child(6){
+  margin-left: 20rpx;
+}
+.item:nth-child(7){
+  margin-left: 20rpx;
+}
+.navbar .item.active{
+  background-color: #b99bff;
+  color: white;
+  
+  
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+}
+.ss{
+  /* 所有元素不换行 */
+  white-space: nowrap;
+  height:80rpx;
+  margin-top: 15rpx;
+}

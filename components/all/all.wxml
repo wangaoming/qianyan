@@ -1,0 +1,29 @@
+<!--components/all/all.wxml-->
+<view class="top">
+<view class="good" wx:for="{{list}}">
+<image class="img" src="{{item.img}}" style="border-radius: 14rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+</image>
+<view class="" style=" font-size: 26rpx;margin-top: 20rpx;margin-left: 8rpx;" hover-class="none" hover-stop-propagation="false">
+    {{item.title}}
+</view>
+<view class="price" style="margin-bottom: 30rpx;margin-top: 15rpx;margin-left: -5rpx;">
+    <view class="" style="color: #ff7b7b;" hover-class="none" hover-stop-propagation="false">
+      ￥{{item.xianjia}}
+    </view>
+    
+    <view class="" style="margin-left: 20rpx;font-size: 28rpx;" hover-class="none" hover-stop-propagation="false">
+        ￥{{item.yuanjia}}
+    </view>
+    
+    <image class="" style="margin-left: 10rpx;width: 40rpx;height: 25rpx;" src="/images/gooddetail/queen.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+    </image>
+    </view>
+
+</view>
+
+
+
+<view style="margin-top: 400rpx;margin-left:200rpx;">
+    主子，我也是有底线的~
+</view>
+</view>

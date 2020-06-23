@@ -44,7 +44,10 @@
   
 }
 .navbar .item:nth-child(2){
-  margin-left: 130rpx;
+  margin-left: 60rpx;
+}
+.navbar .item:nth-child(1){
+  margin-left: -50rpx;
 }
 .navbar .item.active{
   color: black;

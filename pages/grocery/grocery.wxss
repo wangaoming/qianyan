@@ -4,7 +4,7 @@
     align-items: center;
     border-bottom: 1px solid #eee;
     width: 800rpx;
-    background: white;
+   background-color: white;
     /* 顶部导航栏固定 */
     position:fixed; 
     top:0;
@@ -19,7 +19,7 @@
     
   }
   .navbar .item.active{
-    font-size:19px;
+    font-size:30rpx;
     color: black;
   }
   .navbar .item.active:after{
@@ -38,13 +38,14 @@
     text-align: center;
     line-height: 100rpx;
     color: #c5c5c5;
+    font-size: 26rpx;
     
   }
   .navbar .item:nth-child(2){
-    margin-left:120rpx;
+    margin-left:90rpx;
   }
   .navbar .item:nth-child(1){
-    margin-left: 180rpx;
+    margin-left: 150rpx;
   }
   .top-img{
     width: 40rpx;
@@ -52,7 +53,10 @@
     margin-left: 30rpx;
   }
   .fabu{
-    margin-left: 140rpx;
+    margin-left: 130rpx;
     color: #b89aff;
-    font-size: 30rpx;
+    font-size: 24rpx;
+  }
+  .ss{
+      margin-top: 75rpx;
   }

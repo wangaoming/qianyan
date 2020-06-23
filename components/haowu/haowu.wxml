@@ -1,0 +1,46 @@
+<!--components/haowu/haowu.wxml-->
+
+
+  <view class="search">
+    <view class="input-wrapper">
+      <image src="/images/qiandao/app_img_search.png" class="searchImg" style="width: 30rpx;height: 30rpx;"></image>
+      <input placeholder="请输入想要搜索的商品关键词" class="input" adjust-position style="font-size: 20rpx;width: 270rpx;" ></input>
+    </view>
+  </view>
+     <!-- 轮播图 -->
+     <swiper class="swiper"  indicator-dots="true" indicator-color="white"  bindchange='onSlideChange' circular="true" duration="1000"   autoplay="true" interval='5000'>       
+        <block wx:for="{{items}}" wx:for-index="index">
+            <swiper-item class="" item-id="">
+             <image src="{{item.url}}" style="width: 100%;height: 100%;border-radius: 14rpx; "></image>
+         </swiper-item>
+        </block>
+     </swiper>
+     <!-- 导航栏 -->
+<scroll-view class="ss" scroll-x style="width: 100%;"
+ >
+     <view class="navbar" style="margin-top: 10rpx;background: white;z-index: 999;" >
+      <view  wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
+      </view> 
+</scroll-view>
+
+
+
+
+<!-- neirong -->
+<swiper  class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+  <!-- 全部 -->
+   <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+       <scroll-view ><all></all></scroll-view>
+   </view></swiper-item> 
+   <!-- 彩妆-->
+   <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+       <scroll-view ><all></all></scroll-view>
+   </view></swiper-item> 
+ <!-- 美体 --> 
+ 
+  <swiper-item><view hidden="{{currentTab!==2}}" class="hidden"> <scroll-view >
+    <all></all></scroll-view></view></swiper-item> 
+</swiper>
+
+
+       

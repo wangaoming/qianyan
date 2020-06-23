@@ -1,0 +1,21 @@
+<!--pages/grocery/grocery.wxml-->
+<view class="top">
+    <image src="/images/qiandao/app_img_page_back.png" class="top-img"></image>
+    <!-- 导航条 -->
+    <view class="navbar">
+      <text wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</text>
+  </view>
+  <text class="fabu">订单</text>
+  </view>
+  <!-- 内容 -->
+  <swiper  current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+    <!-- 好物推荐-->
+     <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+         <scroll-view  class="ss"><haowu></haowu></scroll-view>
+     </view></swiper-item> 
+     <!-- 个性装扮 -->
+     <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+         <scroll-view class="ss"><dressup></dressup></scroll-view>
+     </view></swiper-item> 
+  
+ </swiper>
