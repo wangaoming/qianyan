@@ -1,5 +1,6 @@
 <!--components/zhoubang/zhoubang.wxml-->
-<view class="hhh">
+<view class=""  style="width: 100%;margin-left: -30rpx;"  hover-class="none" hover-stop-propagation="false">
+    <view class="hhh">
 
 <view class="zhoubang">
 
@@ -59,7 +60,7 @@
             
         </image>
     <view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
-        周榜：
+        总榜：
     </view>
     <view class="" hover-class="none" hover-stop-propagation="false">
         {{item.number}}
@@ -92,4 +93,6 @@
     </view>
 
 </view>
+</view>
+
 </view>

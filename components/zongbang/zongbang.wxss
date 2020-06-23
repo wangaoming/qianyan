@@ -1,0 +1,39 @@
+
+.hhh{
+    background-color: white;
+
+}
+.zhoubang{
+  margin-top: -20rpx;
+    margin-left:30rpx ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.neirong{
+width: 167px;
+border-radius: 18rpx;
+border-color: #eee;
+border-style: solid;
+border-width: 1px;
+margin-top: 30rpx;
+display: flex;
+background-color: white;
+flex-direction: column;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.qq{
+    background-image: url('https://s1.ax1x.com/2020/06/21/N8MJi9.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 240rpx;
+    height:170rpx ;
+    margin-top: -180rpx;
+    margin-left: -20rpx;
+    display: flex;
+    flex-direction: column;
+}

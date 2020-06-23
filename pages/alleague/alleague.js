@@ -1,21 +1,20 @@
-// pages/eague/eague.js
+// pages/alleague/alleague.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
-    navbar:['好物','文集','话题','周榜','热门'],
+    navbar:['最新','总榜','情感','二次元','文艺','明信片'],
     currentTab:0
+
   },
-  //导航栏
+//导航栏
 navbarTap(e){
   this.setData({
     currentTab: e.currentTarget.dataset.idx
   })
 },
-
 // 滑动事件
 swiperChange: function (e) {
   this.setData({
@@ -23,32 +22,13 @@ swiperChange: function (e) {
   })
 
 },
-eaguehandle(){
-wx.navigateTo({
-  url: '../../pages/eaguedetail/eaguedetail',
-  success: function(res){
-    // success
-  },
-  fail: function() {
-    // fail
-  },
-  complete: function() {
-    // complete
-  }
-})
-},
-allhandle(){
-wx.navigateTo({
-  url: '../../pages/alleague/alleague',
-})
-}
- , /**
+  /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
-  }
-,
+  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

@@ -44,6 +44,10 @@
    
   
   }
+  .swiper{
+    margin-top: 4rpx;
+margin-left: -30rpx;
+}
 /*导航栏*/
 .navbar{
 display: flex;

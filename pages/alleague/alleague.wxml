@@ -1,0 +1,65 @@
+<!--pages/alleague/alleague.wxml-->
+<view>
+<view class="top" style="margin-bottom: 20rpx;">
+  <image src="/images/qiandao/返回箭头.png"></image>
+  <text class="t1">全部社团</text>
+  <image src="/images/qiandao/app_img_search.png" class="t2" style="width: 30rpx;height: 30rpx;margin-left: 260rpx;"></image>
+</view>
+<view style="width: 100%;height: 8rpx;background-color: #eee;"></view>
+</view>
+
+<view class="" style="display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+   <image class="" style="width: 40rpx;height: 35rpx;margin-left: 20rpx;" src="/images/zuixin/app_img_club_mine.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+     
+   </image>
+
+   <view class="" style="margin-top: 5rpx;font-size: 28rpx;margin-left: 20rpx;" hover-class="none" hover-stop-propagation="false">
+     我的社团
+   </view>
+   <view class="" style="color:#b89aff;font-size: 25rpx;margin-left:470rpx;" hover-class="none" hover-stop-propagation="false">
+     编辑
+   </view>
+</view>
+
+<view class="" style="margin-left: 20rpx;margin-bottom: 10rpx;margin-top: 10rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+  <view class="item1" style="">
+    <image style="width: 80px;height:80px;" src="/images/shetuan/11.png"  mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+<view style="margin-top: 10rpx;font-size: 26rpx;margin-left: 10rpx;" class="" hover-class="none" hover-stop-propagation="false">
+  创建专属社团
+</view>
+</view>
+
+<view class="item1" style="margin-left: 10rpx;">
+  <view class="" style="width:78px;height:78px;;border-radius: 14rpx;border-width: 2rpx;border-style: solid;border-color: #b89aff;" hover-class="none" hover-stop-propagation="false">
+    <image style="width:76px;height:76px;;border-radius: 14rpx;" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1294670059,191050957&fm=26&gp=0.jpg"  mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+  </view>
+<view style="margin-top: 10rpx;font-size: 26rpx;margin-left: 10rpx;" class="" hover-class="none" hover-stop-propagation="false">
+崽崽的宝贝社
+</view>
+</view>
+
+</view>
+<view style="width: 100%;height: 8rpx;background-color: #eee;"></view>
+ <!-- 导航栏 -->
+ 
+ <scroll-view class="ss" scroll-x style="width: 100%;"
+ >
+     <view class="navbar" style="margin-top: 10rpx;background: white;z-index: 999;" >
+      <view  wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
+      </view> 
+</scroll-view>
+
+<swiper  class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+  <!-- 最新 -->
+   <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
+       <scroll-view ><bang></bang></scroll-view>
+   </view></swiper-item> 
+   <!-- 总榜-->
+   <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
+       <scroll-view ><bang></bang></scroll-view>
+   </view></swiper-item> 
+ <!-- 情感 --> 
+ 
+  <swiper-item><view hidden="{{currentTab!==2}}" class="hidden"> <scroll-view >
+    <all></all></scroll-view></view></swiper-item> 
+</swiper>

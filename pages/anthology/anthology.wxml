@@ -3,30 +3,44 @@
     <image src="/images/qiandao/返回箭头.png"></image>
     <text class="t1">全部文集</text>
     <text class="t2" bindtap="rulesHandle">我的文集</text>
-  </view>
-  <view class="search">
+</view>
+<view class="search">
     <view class="input-wrapper">
-      <image src="/images/qiandao/app_img_search.png" class="searchImg" style="width: 30rpx;height: 30rpx;"></image>
-      <input placeholder="请输入想要搜索的内容" class="input" adjust-position style="font-size: 20rpx;width: 200rpx;" ></input>
+        <image src="/images/qiandao/app_img_search.png" class="searchImg" style="width: 30rpx;height: 30rpx;"></image>
+        <input placeholder="请输入想要搜索的内容" class="input" adjust-position style="font-size: 20rpx;width: 200rpx;"></input>
     </view>
-  </view>
-     
-  <scroll-view class="ss" scroll-x style="width: 100%;"
- >
-     <view class="navbar" style="margin-top: 10rpx;background: white;z-index: 999;" >
-      <view  wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap"   data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
-      </view> 
+</view>
+
+<scroll-view class="ss" scroll-x style="width: 100%;">
+    <view class="navbar" style="margin-top: 10rpx;background: white;z-index: 999;">
+        <view wx:for="{{navbar}}" wx:key="unique" bindtap="navbarTap" data-idx="{{index}}"
+            class="item {{currentTab==index ? 'active' : ''}}">{{item}}</view>
+    </view>
 </scroll-view>
 
-<swiper  class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
-     <swiper-item><view hidden="{{currentTab!==0}}" class="hidden">
-         <scroll-view ><hh></hh></scroll-view>
-     </view></swiper-item> 
-     <swiper-item><view  hidden="{{currentTab!==1}}" class="hidden">
-         <scroll-view ><hh></hh></scroll-view>
-     </view></swiper-item> 
+<swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange" style="height:1750px;">
+    <swiper-item>
+        <view hidden="{{currentTab!==0}}" class="hidden">
+            <scroll-view>
+                <hh></hh>
+            </scroll-view>
+        </view>
+    </swiper-item>
+    <swiper-item>
+        <view hidden="{{currentTab!==1}}" class="hidden">
+            <scroll-view>
+                <hh></hh>
+            </scroll-view>
+        </view>
+    </swiper-item>
 
-   
-    <swiper-item><view hidden="{{currentTab!==2}}" class="hidden"> <scroll-view >
-      <all></all></scroll-view><hh></hh></view></swiper-item> 
-  </swiper>
+
+    <swiper-item>
+        <view hidden="{{currentTab!==2}}" class="hidden">
+            <scroll-view>
+                <all></all>
+            </scroll-view>
+            <hh></hh>
+        </view>
+    </swiper-item>
+</swiper>

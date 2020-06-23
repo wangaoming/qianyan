@@ -1,0 +1,91 @@
+/* pages/alleague/alleague.wxss */
+top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+  height: 70rpx; 
+  width: 800rpx;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  border-bottom: 1px solid #eee;
+}
+.top image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+
+}
+.t1{
+  margin-left: 230rpx;
+  font-weight: bold;
+}
+.item1{
+  display: flex;
+  border-radius: 14rpx;
+  flex-direction: column;
+  align-items: center;
+}
+/*导航栏*/
+.navbar{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 500px;
+  margin-top: 15rpx;
+}
+.navbar .item{
+  position: relative;
+  color: #888888;
+  text-align: center;
+  line-height: 55rpx;
+  font-size: 24rpx;
+  width: 70px;
+  border-radius: 8rpx;
+   background-color: #eee;
+}
+
+.item:nth-child(1){
+  margin-left: 30rpx;
+}
+.item:nth-child(2){
+  margin-left: 45rpx;
+}.item:nth-child(3){
+  margin-left: 45rpx;
+}.item:nth-child(4){
+  margin-left: 45rpx;
+}.item:nth-child(5){
+  margin-left: 45rpx;
+  width:50px;
+}
+.item:nth-child(6){
+  margin-left: 45rpx;
+  width:50px;
+}
+.navbar .item.active{
+  background-color: #b99bff;
+  color: white;
+  
+  
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+}
+.swiper{
+  margin-top: 8rpx;
+  margin-left: 33rpx;
+
+}
+.ss {
+  /* 所有元素不换行 */
+  white-space: nowrap;
+  height: 80rpx;
+  margin-top: 15rpx;
+}
