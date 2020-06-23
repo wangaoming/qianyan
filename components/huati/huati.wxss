@@ -1,58 +1,15 @@
-.top{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-bottom: 1px solid #eee;
-    width: 800rpx;
-    background: white;
-    /* 顶部导航栏固定 */
-    position:fixed; 
-    top:0;
-    /* 设置元素的堆叠顺序 */
-    z-index: 999;
-    margin-top: -30rpx;
-  }
-  .navbar{
-    flex: none;
-    display: flex;
-    background: #fff;
-    
-  }
-  .navbar .item.active{
-    font-size:19px;
-    color: black;
-  }
-  .navbar .item.active:after{
-    content: "";
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 4rpx;
-    background:linear-gradient(to right,pink,#a02bc2)
-  }
-  .navbar .item{
-    position: relative;
-    flex: auto;
-    text-align: center;
-    line-height: 100rpx;
-    color: #c5c5c5;
-    
-  }
-  .navbar .item:nth-child(2){
-    margin-left:120rpx;
-  }
-  .navbar .item:nth-child(1){
-    margin-left: 180rpx;
-  }
-  .top-img{
-    width: 40rpx;
-    height:40rpx;
-    margin-left: 30rpx;
-  }
-  .fabu{
-    margin-left: 140rpx;
-    color: #b89aff;
-    font-size: 30rpx;
-  }
+.hhh{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30rpx;
+  margin-top: -80rpx;
+}
+.topic{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 100rpx;
+}
+.middle{
+  margin-left: 10rpx;
+}
