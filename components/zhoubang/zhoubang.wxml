@@ -15,7 +15,7 @@
         
     </image>
 <view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
-    总榜：
+    周榜：
 </view>
 <view class="" hover-class="none" hover-stop-propagation="false">
     {{item.number}}

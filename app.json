@@ -1,11 +1,12 @@
 {
   "pages": [
+    "pages/wode/wode",
+    "pages/city/city",
     "pages/shetuan/shetuan",
     "pages/alleague/alleague",
     "pages/anthology/anthology",
     "pages/grocery/grocery",
     "pages/focus/focus",
-    "pages/wode/wode",
     "pages/eaguedetail/eaguedetail",
     "pages/gooddetail/gooddetail",
     "pages/qianyan/qianyan",

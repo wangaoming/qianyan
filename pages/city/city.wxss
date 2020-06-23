@@ -1,0 +1,59 @@
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    width: 800rpx;
+   background-color: white;
+    /* 顶部导航栏固定 */
+    position:fixed; 
+    top:0;
+    /* 设置元素的堆叠顺序 */
+    z-index: 999;
+height: 80rpx;
+  }
+  .top image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-left: 20rpx;
+  
+  }
+  .t1{
+    margin-left: 280rpx;
+    font-weight: bold;
+  }
+
+  .yonghu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50rpx;
+    margin-left:40rpx ;
+    margin-bottom: 10rpx;
+}
+.img1{
+    width: 82rpx;
+    height: 82rpx;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    
+    }
+.touxiang{
+        width:80rpx;
+        height:80rpx;
+        border-radius: 50%;
+      }
+.biaoshi{
+        width:46rpx;
+        height:20rpx;
+        font-size: 16rpx;
+        text-align: center;
+        color: white;
+        line-height: 20rpx;
+        border-radius: 20rpx;
+    
+        border: 2px solid white;
+       margin-top: 62rpx;
+       margin-left: -64rpx;
+      }

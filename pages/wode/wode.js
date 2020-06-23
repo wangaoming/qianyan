@@ -190,7 +190,19 @@ wx.navigateTo({
     }
 
    },
+   imghandle6(e){
+    var img = e.currentTarget.dataset.img;
+    console.log(img)
+    if(img == '/images/wode/12.png'){
+      wx.navigateTo({
+        url: '../../pages/city/city',
+      })
+    }
+
+   },
   /**
+  /**
+   * 
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {

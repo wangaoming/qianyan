@@ -152,7 +152,7 @@
   <!-- 第二行 -->
   <view class="one" style="margin-top: 20rpx;margin-bottom: 10rpx;">
     <view class="ll" wx:for="{{serlist4}}" style="width: 170rpx;">
-      <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;"></image>
+      <image src="{{item.img}}" style="height: 69rpx;width: 69rpx;" data-img="{{item.img}}" bindtap="imghandle6"></image>
       <view style="font-size: 22rpx;margin-top: 15rpx;">{{item.text}}</view>
     </view>
     </view>

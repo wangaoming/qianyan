@@ -1,0 +1,86 @@
+<view class="top">
+    <image src="/images/qiandao/返回箭头.png"></image>
+    <text class="t1">同城</text>
+</view>
+
+
+<scroll-view class="" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
+      style="height: 10000rpx;margin-top: 80rpx;" scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
+    bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+    
+    <view style="width: 100%;display: flex;flex-direction: column;"wx:for="{{list}}" >
+        <view class="yonghu" >
+        <view class="img1" style="border:{{item.is == '1'?'2px solid pink':'2px solid #5d9cec'}};" >
+               <image class="touxiang" src="{{item.img}}" bindtap="inforHandle"></image>
+             </view>
+             <text class="biaoshi"  style="background-color:{{item.is == '1'?' pink':' #5d9cec'}};" >{{item.biaoshi}}</text>
+       
+             <view class="middle" style="width: 470rpx;margin-left: 20rpx;display: flex;flex-direction: column;">
+    
+       <view class="two" style="margin-top: -25rpx;display: flex;flex-direction: row;align-items: center;">
+       <view class="" style="" hover-class="none" hover-stop-propagation="false">
+           {{item.nicheng}}
+       </view>
+        <view class="" style="border-radius: 2rpx;;line-height: 25rpx;color: #fd5484;text-align: center;font-size: 15rpx;width: 70rpx;height: 20rpx;margin-left: 10rpx;;background-color: #ffccda;" hover-class="none" hover-stop-propagation="false">
+       {{item.age}}
+       </view>
+       </view>
+      <view class=""  style="margin-top: 10rpx;margin-bottom: 10rpx;font-size: 19rpx;color: #888;;display: flex;flex-direction: row;align-items: center;"  hover-class="none" hover-stop-propagation="false">
+          
+        <view class=""  style="" hover-class="none" hover-stop-propagation="false">
+              浅记
+          </view>
+<view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+    {{item.qianji}}
+</view>
+<view class="" style="margin-left: 10rpx;width: 3rpx;height:15rpx;background-color: #888; " hover-class="none" hover-stop-propagation="false"> 
+</view>
+<!-- 2 -->
+<view class=""  style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+    浅友
+</view>
+<view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+{{item.qianyou}}
+</view>
+<view class="" style="margin-left: 10rpx;width: 3rpx;height:15rpx;background-color: #888; " hover-class="none" hover-stop-propagation="false">
+
+</view>
+<!-- 3 -->
+<view class=""  style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+    人气值
+</view>
+<view class="" style="margin-left: 10rpx;" hover-class="none" hover-stop-propagation="false">
+{{item.renqi}}
+</view>
+      </view>
+<view class="" style="font-size: 19rpx;color: #888;" hover-class="none" hover-stop-propagation="false">
+    {{item.wenzi}}
+</view>
+
+
+
+             </view>
+       
+
+
+
+             <view class="" style="font-size: 20rpx;color: #888;" hover-class="none" hover-stop-propagation="false">
+               {{item.hour}}活跃
+             </view>
+       
+       
+       </view>
+          
+       
+       <view style="width: 100%;height: 2rpx;background-color: #eee;" hidden="{{item.hidden == '1'}}">
+           
+       </view>
+         
+       
+         
+       </view>
+    
+
+
+</scroll-view>
+  
