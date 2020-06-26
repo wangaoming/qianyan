@@ -28,7 +28,6 @@
         color: white;
         line-height: 20rpx;
         border-radius: 20rpx;
-    
         border: 2px solid white;
        margin-top: 62rpx;
        margin-left: -64rpx;

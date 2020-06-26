@@ -3,8 +3,8 @@
     <image src="/images/qiandao/返回箭头.png"></image>
     <text class="t1">全部文集</text>
     <text class="t2" bindtap="rulesHandle">我的文集</text>
-</view>
-<view class="search">
+  </view>
+  <view class="search">
     <view class="input-wrapper">
         <image src="/images/qiandao/app_img_search.png" class="searchImg" style="width: 30rpx;height: 30rpx;"></image>
         <input placeholder="请输入想要搜索的内容" class="input" adjust-position style="font-size: 20rpx;width: 200rpx;"></input>

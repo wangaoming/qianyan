@@ -120,10 +120,8 @@
 立即购买
 
     </view>
-
     <view class="right" style=" margin-left: 10rpx;background-color: #ffc177;" >
         成为会员
-    
             </view>
 
 </view>

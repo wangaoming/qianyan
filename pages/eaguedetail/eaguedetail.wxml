@@ -12,8 +12,142 @@
 <scroll-view class="ss" scroll-x="false" scroll-y="false" upper-threshold="50" lower-threshold="50" 
     scroll-top="0" scroll-left="0" scroll-into-view="" scroll-with-animation="false" enable-back-to-top="false" 
     bindscrolltoupper="" bindscrolltolower="" bindscroll="">
+    <!-- 内容 -->
+<view class="" style="width: 85%;margin-left: 50rpx;height:50%;margin-top: 70rpx;border-radius: 14rpx;box-shadow: #666 0px 0px 5px; background-color: #dacafe;border-width: 6rpx;border-style: solid;border-color: white;" hover-class="none" hover-stop-propagation="false">
+    <view class="head">
+        <view class="" style="align-items: center;display: inline-block;background-color: powderblue;height:120rpx;width:120rpx;border-radius: 14rpx;border-color:  white;border-style: solid;;border-width: 1px;" hover-class="none" hover-stop-propagation="false">
+            <image   style="width: 120rpx;height: 120rpx;border-radius: 14rpx;" bindtap="eaguehandle" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1294670059,191050957&fm=26&gp=0.jpg"></image>
+        </view>
+        <view class="" style="margin-left: 20rpx;display: flex;flex-direction: column;" hover-class="none" hover-stop-propagation="false">
+             <view class="" style="margin-bottom: 25rpx;font-size: 40rpx;" hover-class="none" hover-stop-propagation="false">
+                 崽崽的宝贝社
+             </view>
+             <view class="" hover-class="none" style="display: flex;flex-direction:row;align-items: center;" hover-stop-propagation="false">
+                <image class="" style="border-radius: 50%;width: 50rpx;height:50rpx;" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592558338109&di=5eed2d1b2ecdb9656812a2d6f2b2f234&imgtype=0&src=http%3A%2F%2Ftupian.qqw21.com%2Farticle%2FUploadPic%2F2020-5%2F2020561604218663.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+                </image>
+                 <view class="" hover-class="none" style="margin-left: 15rpx;font-size: 30rpx;color: #666666; " hover-stop-propagation="false">
+                     忘崽.
+                 </view>
+
+             </view>
+             
+        </view>
+    </view>
+ <!--创建时间 -->
+<view class="time" style="display: flex;flex-direction:column;width: 86%;margin-left: 40rpx;margin-top: 40rpx;">
+<view class="" style="margin-bottom: 20rpx;font-size: 28rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+    <view class="" hover-class="none" hover-stop-propagation="false">
+       创建时间 
+    </view>
+    <view class="" style="color: #666;margin-left: 40rpx;" hover-class="none" hover-stop-propagation="false">
+        2020-03-10 
+     </view>
+</view>
+<view class="" style="width: 100%;height: 2rpx;background-color: white;" hover-class="none" hover-stop-propagation="false">
+</view>
+
+</view>
+<!-- 社团等级 -->
+<view class="time" style="display: flex;flex-direction:column;width: 86%;margin-left: 40rpx;margin-top: 20rpx;">
+    <view class="" style="margin-bottom: 20rpx;font-size: 28rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+        <view class="" hover-class="none" hover-stop-propagation="false">
+           社团等级
+        </view>
+        <!-- 小太阳 -->
+        <image class="" src="/images/zuixin/sun1.png" style="margin-left: 40rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="" src="/images/zuixin/sun1.png" style="margin-left: 10rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="" src="/images/zuixin/sun1.png" style="margin-left: 10rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="" src="/images/zuixin/sun2.png" style="margin-left: 10rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="" src="/images/zuixin/sun2.png" style="margin-left: 10rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="" src="/images/zuixin/sun2.png" style="margin-left: 10rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        <image class="" src="/images/zuixin/sun2.png" style="margin-left: 10rpx;width: 30rpx;height: 30rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+          
+    </view>
+    <view class="" style="width: 100%;height: 2rpx;background-color: white;" hover-class="none" hover-stop-propagation="false">
+    </view>
+    
+    </view>
+<!-- 甜蜜度 -->
+<view class="time" style="display: flex;flex-direction:column;width: 86%;margin-left: 40rpx;margin-top: 20rpx;">
+    <view class="" style="margin-bottom: 20rpx;font-size: 28rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+        <view class="" hover-class="none" hover-stop-propagation="false">
+           甜蜜度
+        </view>
+        <image class="" src="/images/zhoubang/99.png" style="margin-left: 50rpx;width: 340rpx;height: 40rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            
+        </image>
+          
+    </view>
+    <view class="" style="width: 100%;height: 2rpx;background-color: white;" hover-class="none" hover-stop-propagation="false">
+    </view>
+    
+    </view>
+<!-- 社团成员 -->
+<view class="time" style="display: flex;flex-direction:column;width: 86%;margin-left: 40rpx;margin-top: 20rpx;">
+    <view class="" style="margin-bottom: 20rpx;font-size: 28rpx;display: flex;flex-direction: row;align-items: center;" hover-class="none" hover-stop-propagation="false">
+        <view class="" hover-class="none" hover-stop-propagation="false">
+          社团成员
+        </view>
+    
+        <view class="" style="color: #666;margin-left: 40rpx;" hover-class="none" hover-stop-propagation="false">
+            188/200
+         </view>
+    </view>
+    
+    
+    </view>
+</view>
+<!-- 社团宣言 -->
+<view style="margin-top: 40rpx;margin-left: 30rpx;display: flex;flex-direction: row;align-items: center;font-size: 28rpx;">
+    <view>
+       社团宣言： 
+    </view>
+      <view style="color: #b4b4b4;text-align: center;line-height: 80rpx;border-color: #eee;border-style: solid;border-width: 2rpx;width: 500rpx;height: 75rpx;border-radius: 8rpx;background-color: #f8f8f8;">
+          温山软水万千，不及你，眉眼半分
+      </view>
+        
+</view>
+    <!-- 社团成员 -->
+    <view style="margin-top: 35rpx;margin-left: 30rpx;display: flex;flex-direction: row;align-items: center;font-size: 28rpx;">
+        <view style="display: flex;flex-direction: row;align-items: center;">
+           社团成员
+           <view style="font-size: 17rpx;color:#666 ;">(188/200)</view> 
+        </view>
+         
+            
+    </view>
+    <!-- 头像 -->
+    <view class="headimg" >
+
+       
+<view style="margin-left:56rpx;margin-top: 55rpx;display: flex;flex-direction: column;align-items: center;"wx:for="{{list}}">
+   
+    <!-- 头像 -->
+    <view style="margin-left: -25rpx;display: flex;flex-direction: row;align-items: center;">
+         
+        <view class="" hover-class="none" hover-stop-propagation="false" style="margin-top:-80rpx ;">
+              <image class="" src="/images/zuixin/app_img_level_vip_svip_small.png" style="width: 40rpx;height: 40rpx;" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+            
+        </image>
+         </view>
+        
+       
+    <view class="img1" style="margin-left: -30rpx;border:{{item.is == '1'?'2px solid pink':'2px solid #5d9cec'}};" >
+        <image class="touxiang" src="{{item.img}}" bindtap="inforHandle"></image>
+      </view>
+      <text class="biaoshi"  style="background-color:{{item.is == '1'?' pink':' #5d9cec'}};" >{{item.biaoshi}}</text>
+    </view>
+    <view style="display: flex;flex-direction: row;align-items: center;"><image src="/images/zhoubang/app_img_clubshop_fire_icon.png" style="width: 23rpx;height: 30rpx;"></image>
+    <view style="margin-left: 15rpx;font-size: 22rpx;color: #ca76d4;">{{item.fire}}</view>
+
+</view></view>
     
 
-    
-</scroll-view>
+
   
+
+    </view>
+</scroll-view>
+  <!-- 底部导航栏 -->
+  
+   <view class="button">退出社团</view>

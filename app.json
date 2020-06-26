@@ -1,13 +1,11 @@
 {
   "pages": [
-    "pages/wode/wode",
-    "pages/city/city",
     "pages/shetuan/shetuan",
-    "pages/alleague/alleague",
+    "pages/eaguedetail/eaguedetail",
+    "pages/wode/wode",
     "pages/anthology/anthology",
     "pages/grocery/grocery",
     "pages/focus/focus",
-    "pages/eaguedetail/eaguedetail",
     "pages/gooddetail/gooddetail",
     "pages/qianyan/qianyan",
     "pages/eague/eague",
@@ -24,9 +22,9 @@
     "pages/write/write",
     "pages/xiaoxi/xiaoxi",
     "pages/siginrules/siginrules"
-    
-    
-    
+
+
+
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -39,8 +37,7 @@
     "color": "#777777",
     "borderStyle": "white",
     "selectedColor": "#8c7edb",
-    "list": [
-      {
+    "list": [{
         "pagePath": "pages/qianyan/qianyan",
         "text": "浅言",
         "iconPath": "/tabbarComponent/icon/app_img_tab_zy.png",

@@ -41,12 +41,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
   
   }
   .swiper{
-    margin-top: 4rpx;
-    margin-left: 33rpx;
+    width: 100%;
+    margin-left: -5rpx;
 
 }
 /*导航栏*/
